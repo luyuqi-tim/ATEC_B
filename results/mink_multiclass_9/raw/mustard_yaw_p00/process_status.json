@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/isaac-sim/python.sh",
+    "-u",
+    "/root/Desktop/TaskB/experiments/mink_wholebody/bench.py",
+    "--mode",
+    "grasp",
+    "--trials",
+    "1",
+    "--headless",
+    "--enable_cameras",
+    "--record-video",
+    "--config",
+    "/root/Desktop/TaskB/experiments/mink_multiclass/configs/mustard_yaw_p00.json",
+    "--output",
+    "/root/Desktop/TaskB/runs/mink_multiclass/nine_01/mustard_yaw_p00"
+  ],
+  "elapsed_s": 157.7516263104044,
+  "overall_timeout_s": 495.0,
+  "ready": true,
+  "completed_result_marker": true,
+  "native_exit_code": -15,
+  "forced_native_cleanup": true,
+  "cleanup_reason": "native_teardown_exceeded_5s_after_results_flushed",
+  "diagnostic_pass": true,
+  "exit_code": 0
+}

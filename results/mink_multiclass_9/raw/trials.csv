@@ -1,0 +1,10 @@
+index,case_id,object,yaw_deg,attempts,root_distance_m,success,state,reason,max_rise_m,max_valid_hold_s,exit_code,output
+1,mustard_yaw_p00,mustard,0,1,0.55,True,DONE,,0.1481846123933792,5.899999999999962,0,runs/mink_multiclass/nine_01/mustard_yaw_p00
+2,sugar_yaw_p00,sugar,0,1,0.55,True,DONE,,0.14629213511943817,5.839999999999963,0,runs/mink_multiclass/nine_01/sugar_yaw_p00
+3,banana_yaw_p00,banana,0,1,0.55,False,FAIL,approach_timeout,3.515556454658508e-05,0.0,1,runs/mink_multiclass/nine_01/banana_yaw_p00
+4,mustard_yaw_m45,mustard,-45,1,0.55,True,DONE,,0.14784550666809082,5.899999999999962,0,runs/mink_multiclass/nine_01/mustard_yaw_m45
+5,sugar_yaw_m45,sugar,-45,1,0.55,True,DONE,,0.1462450996041298,5.819999999999964,0,runs/mink_multiclass/nine_01/sugar_yaw_m45
+6,banana_yaw_m45,banana,-45,1,0.55,False,FAIL,approach_timeout,8.022412657737732e-06,0.0,1,runs/mink_multiclass/nine_01/banana_yaw_m45
+7,mustard_yaw_p45,mustard,45,1,0.55,True,DONE,,0.14794006943702698,5.899999999999962,0,runs/mink_multiclass/nine_01/mustard_yaw_p45
+8,sugar_yaw_p45,sugar,45,1,0.55,True,DONE,,0.1464449241757393,5.839999999999963,0,runs/mink_multiclass/nine_01/sugar_yaw_p45
+9,banana_yaw_p45,banana,45,1,0.55,False,FAIL,approach_timeout,2.4013221263885498e-05,0.0,1,runs/mink_multiclass/nine_01/banana_yaw_p45

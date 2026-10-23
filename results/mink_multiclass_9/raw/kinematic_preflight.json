@@ -1,0 +1,749 @@
+[
+  {
+    "case_id": "mustard_yaw_p00",
+    "crouch": {
+      "success": true,
+      "reason": "finite_tracking_step",
+      "foot_error_m": 8.91081631783155e-09,
+      "body_position_error_m": 3.2391315910985714e-05,
+      "body_angle_error_deg": 0.000373852041316199,
+      "ee_position_error_m": 0.0,
+      "ee_angle_error_deg": 0.0,
+      "planned_base": [
+        -0.023328825127857136,
+        1.3723353069837776e-05,
+        0.4200005261112247,
+        0.9999897570530986,
+        1.8489710921170494e-08,
+        5.77929270063253e-07,
+        -0.004526122905002112
+      ]
+    },
+    "stages": [
+      {
+        "stage": "pregrasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.8797579944295863e-08,
+        "body_position_error_m": 6.591158793984218e-05,
+        "body_angle_error_deg": 0.00083319713696515,
+        "ee_position_error_m": 1.8009388110433633e-05,
+        "ee_angle_error_deg": 0.008192198182038282,
+        "planned_base": [
+          -0.023425303539877807,
+          -5.91739389874991e-08,
+          0.4199985182140109,
+          0.9999898043692669,
+          -1.0477954456934556e-07,
+          4.664654719266708e-07,
+          -0.004515656905309926
+        ],
+        "joint6": 1.6290822336143487
+      },
+      {
+        "stage": "grasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 2.0970869392364327e-08,
+        "body_position_error_m": 7.388998740187313e-05,
+        "body_angle_error_deg": 0.000922023993207072,
+        "ee_position_error_m": 1.8858605530786423e-05,
+        "ee_angle_error_deg": 0.008400557283532275,
+        "planned_base": [
+          -0.023433383330575732,
+          -5.144387503123551e-07,
+          0.4199985532628743,
+          0.9999898078853744,
+          -1.093321259646923e-07,
+          4.2891172825343836e-07,
+          -0.004514878201743364
+        ],
+        "joint6": 1.6290800915100876
+      },
+      {
+        "stage": "lift",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 2.5222741971139593e-08,
+        "body_position_error_m": 8.319401110605716e-05,
+        "body_angle_error_deg": 0.0009529991084475909,
+        "ee_position_error_m": 2.2210571464352225e-05,
+        "ee_angle_error_deg": 0.010023257403573993,
+        "planned_base": [
+          -0.02344291753316339,
+          -2.2170019824942493e-07,
+          0.4799977619978979,
+          0.9999898090592159,
+          -1.0909167345376258e-07,
+          6.01133900944035e-07,
+          -0.004514618183150289
+        ],
+        "joint6": 1.629077179365367
+      }
+    ]
+  },
+  {
+    "case_id": "sugar_yaw_p00",
+    "crouch": {
+      "success": true,
+      "reason": "finite_tracking_step",
+      "foot_error_m": 8.91081631783155e-09,
+      "body_position_error_m": 3.2391315910985714e-05,
+      "body_angle_error_deg": 0.000373852041316199,
+      "ee_position_error_m": 0.0,
+      "ee_angle_error_deg": 0.0,
+      "planned_base": [
+        -0.023328825127857136,
+        1.3723353069837776e-05,
+        0.4200005261112247,
+        0.9999897570530986,
+        1.8489710921170494e-08,
+        5.77929270063253e-07,
+        -0.004526122905002112
+      ]
+    },
+    "stages": [
+      {
+        "stage": "pregrasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.892562840014617e-08,
+        "body_position_error_m": 6.727798957102906e-05,
+        "body_angle_error_deg": 0.0008013562205643343,
+        "ee_position_error_m": 1.7973882215797576e-05,
+        "ee_angle_error_deg": 0.008087008369816805,
+        "planned_base": [
+          -0.023427603315984223,
+          4.52874433465989e-06,
+          0.4199985027941204,
+          0.9999898031148892,
+          -7.36286718238651e-08,
+          4.617157595935908e-07,
+          -0.004515934679333431
+        ],
+        "joint6": 1.6077098197898667
+      },
+      {
+        "stage": "grasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 2.0775921785639107e-08,
+        "body_position_error_m": 7.41323564562249e-05,
+        "body_angle_error_deg": 0.0008749010579259388,
+        "ee_position_error_m": 1.8697412755691904e-05,
+        "ee_angle_error_deg": 0.00828669017438642,
+        "planned_base": [
+          -0.02343450383031304,
+          4.2840743545833365e-06,
+          0.41999859523895444,
+          0.9999898060310044,
+          -7.633254541069702e-08,
+          4.149457101198102e-07,
+          -0.004515288905131204
+        ],
+        "joint6": 1.6077084590015278
+      },
+      {
+        "stage": "lift",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 2.5371571978825887e-08,
+        "body_position_error_m": 8.451766712930504e-05,
+        "body_angle_error_deg": 0.000933805809261423,
+        "ee_position_error_m": 2.212732842059712e-05,
+        "ee_angle_error_deg": 0.009892164238102606,
+        "planned_base": [
+          -0.02344498857216898,
+          4.416544701730979e-06,
+          0.47999776312304276,
+          0.9999898083065262,
+          -7.658483086283691e-08,
+          5.893525358980369e-07,
+          -0.004514784903462217
+        ],
+        "joint6": 1.6077062725939282
+      }
+    ]
+  },
+  {
+    "case_id": "banana_yaw_p00",
+    "crouch": {
+      "success": true,
+      "reason": "finite_tracking_step",
+      "foot_error_m": 1.2202831714411595e-08,
+      "body_position_error_m": 4.8004943475385433e-05,
+      "body_angle_error_deg": 0.0005103400152168569,
+      "ee_position_error_m": 0.0,
+      "ee_angle_error_deg": 0.0,
+      "planned_base": [
+        -0.023313192789756996,
+        1.4014299096959866e-05,
+        0.3400005410021443,
+        0.9999897518377646,
+        1.3245401178018677e-08,
+        8.939178676589654e-07,
+        -0.004527274969207406
+      ]
+    },
+    "stages": [
+      {
+        "stage": "pregrasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.3727911010410813e-08,
+        "body_position_error_m": 5.261154349202642e-05,
+        "body_angle_error_deg": 0.000533665455283565,
+        "ee_position_error_m": 1.3861226079834243e-05,
+        "ee_angle_error_deg": 0.00692236728651707,
+        "planned_base": [
+          -0.023413785096027137,
+          1.5401711912756868e-05,
+          0.3399991082331538,
+          0.999989792585517,
+          1.0844496916850808e-09,
+          3.1433282621404455e-07,
+          -0.0045182656711231055
+        ],
+        "joint6": 1.5596540274528305
+      },
+      {
+        "stage": "grasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.5346933084324466e-08,
+        "body_position_error_m": 5.887345577493726e-05,
+        "body_angle_error_deg": 0.0005956608250878574,
+        "ee_position_error_m": 1.4717798421603253e-05,
+        "ee_angle_error_deg": 0.007276849172416754,
+        "planned_base": [
+          -0.023420048908557974,
+          1.547203268747616e-05,
+          0.33999920538388184,
+          0.9999897950442553,
+          9.456384617296243e-10,
+          2.777187116850163e-07,
+          -0.004517721468983345
+        ],
+        "joint6": 1.5596533705157267
+      },
+      {
+        "stage": "lift",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.8033494252898484e-08,
+        "body_position_error_m": 6.535718480249859e-05,
+        "body_angle_error_deg": 0.0006622322150072043,
+        "ee_position_error_m": 1.6924393207284867e-05,
+        "ee_angle_error_deg": 0.008411637026658873,
+        "planned_base": [
+          -0.023426525923732913,
+          1.5192976899513016e-05,
+          0.3999986932096611,
+          0.9999897976360242,
+          -5.765730311791822e-10,
+          4.1099536555716915e-07,
+          -0.004517147738804598
+        ],
+        "joint6": 1.5596513248399175
+      }
+    ]
+  },
+  {
+    "case_id": "mustard_yaw_m45",
+    "crouch": {
+      "success": true,
+      "reason": "finite_tracking_step",
+      "foot_error_m": 8.91081631783155e-09,
+      "body_position_error_m": 3.2391315910985714e-05,
+      "body_angle_error_deg": 0.000373852041316199,
+      "ee_position_error_m": 0.0,
+      "ee_angle_error_deg": 0.0,
+      "planned_base": [
+        -0.023328825127857136,
+        1.3723353069837776e-05,
+        0.4200005261112247,
+        0.9999897570530986,
+        1.8489710921170494e-08,
+        5.77929270063253e-07,
+        -0.004526122905002112
+      ]
+    },
+    "stages": [
+      {
+        "stage": "pregrasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 2.0342673315703408e-08,
+        "body_position_error_m": 7.2217222063737e-05,
+        "body_angle_error_deg": 0.000860321731226411,
+        "ee_position_error_m": 1.97505087444887e-05,
+        "ee_angle_error_deg": 0.009074531609315432,
+        "planned_base": [
+          -0.02343245301232391,
+          3.5865356591755583e-06,
+          0.4199983818349499,
+          0.9999898054276649,
+          -8.14758354165983e-08,
+          5.138256461609931e-07,
+          -0.004515422512935615
+        ],
+        "joint6": 2.397281105975259
+      },
+      {
+        "stage": "grasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 2.240270698095771e-08,
+        "body_position_error_m": 7.987006273784928e-05,
+        "body_angle_error_deg": 0.0009410466634386591,
+        "ee_position_error_m": 2.0385008843702506e-05,
+        "ee_angle_error_deg": 0.009124222900686487,
+        "planned_base": [
+          -0.023440153347822006,
+          3.281336017661798e-06,
+          0.41999843055500446,
+          0.999989808627494,
+          -8.440360822970947e-08,
+          4.6850823055589506e-07,
+          -0.004514713825075995
+        ],
+        "joint6": 2.397279689631297
+      },
+      {
+        "stage": "lift",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 2.6916667391159337e-08,
+        "body_position_error_m": 8.954029069080355e-05,
+        "body_angle_error_deg": 0.000990439725265527,
+        "ee_position_error_m": 2.3966658078537997e-05,
+        "ee_angle_error_deg": 0.010919022470524361,
+        "planned_base": [
+          -0.02344992710905349,
+          3.4636943659928257e-06,
+          0.4799975995048044,
+          0.9999898105235716,
+          -8.470889089436849e-08,
+          6.491242547480029e-07,
+          -0.004514293810001353
+        ],
+        "joint6": 2.3972773445828794
+      }
+    ]
+  },
+  {
+    "case_id": "sugar_yaw_m45",
+    "crouch": {
+      "success": true,
+      "reason": "finite_tracking_step",
+      "foot_error_m": 8.91081631783155e-09,
+      "body_position_error_m": 3.2391315910985714e-05,
+      "body_angle_error_deg": 0.000373852041316199,
+      "ee_position_error_m": 0.0,
+      "ee_angle_error_deg": 0.0,
+      "planned_base": [
+        -0.023328825127857136,
+        1.3723353069837776e-05,
+        0.4200005261112247,
+        0.9999897570530986,
+        1.8489710921170494e-08,
+        5.77929270063253e-07,
+        -0.004526122905002112
+      ]
+    },
+    "stages": [
+      {
+        "stage": "pregrasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.9844170848020062e-08,
+        "body_position_error_m": 7.114643209286257e-05,
+        "body_angle_error_deg": 0.0008160677061374883,
+        "ee_position_error_m": 1.9032719737334964e-05,
+        "ee_angle_error_deg": 0.008622416656441917,
+        "planned_base": [
+          -0.023431822496907544,
+          6.8046471530620395e-06,
+          0.41999842218184835,
+          0.999989803688149,
+          -5.8872449419161335e-08,
+          4.894449708099162e-07,
+          -0.004515807734417313
+        ],
+        "joint6": 2.383095736278479
+      },
+      {
+        "stage": "grasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 2.1639203600398173e-08,
+        "body_position_error_m": 7.783943829856283e-05,
+        "body_angle_error_deg": 0.0008856568873863124,
+        "ee_position_error_m": 1.9634674753330316e-05,
+        "ee_angle_error_deg": 0.00872522019743785,
+        "planned_base": [
+          -0.02343854245590343,
+          6.631612885050962e-06,
+          0.4199985231308041,
+          0.9999898064503728,
+          -6.077331687178982e-08,
+          4.3779108702415815e-07,
+          -0.004515196025906302
+        ],
+        "joint6": 2.3830946827003174
+      },
+      {
+        "stage": "lift",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 2.6380394315215144e-08,
+        "body_position_error_m": 8.838564068149556e-05,
+        "body_angle_error_deg": 0.0009552465536930885,
+        "ee_position_error_m": 2.3187853053559608e-05,
+        "ee_angle_error_deg": 0.010431101995697913,
+        "planned_base": [
+          -0.023449135225168984,
+          6.711679896622785e-06,
+          0.47999766654305726,
+          0.9999898091447734,
+          -6.127566792724158e-08,
+          6.175467636161359e-07,
+          -0.004514599230728766
+        ],
+        "joint6": 2.3830929152822518
+      }
+    ]
+  },
+  {
+    "case_id": "banana_yaw_m45",
+    "crouch": {
+      "success": true,
+      "reason": "finite_tracking_step",
+      "foot_error_m": 1.2202831714411595e-08,
+      "body_position_error_m": 4.8004943475385433e-05,
+      "body_angle_error_deg": 0.0005103400152168569,
+      "ee_position_error_m": 0.0,
+      "ee_angle_error_deg": 0.0,
+      "planned_base": [
+        -0.023313192789756996,
+        1.4014299096959866e-05,
+        0.3400005410021443,
+        0.9999897518377646,
+        1.3245401178018677e-08,
+        8.939178676589654e-07,
+        -0.004527274969207406
+      ]
+    },
+    "stages": [
+      {
+        "stage": "pregrasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.3130564193885364e-08,
+        "body_position_error_m": 5.059082399829987e-05,
+        "body_angle_error_deg": 0.0005260158193248378,
+        "ee_position_error_m": 1.3310280622234122e-05,
+        "ee_angle_error_deg": 0.006670934932078882,
+        "planned_base": [
+          -0.02341176206868604,
+          1.4551112986978775e-05,
+          0.3399991380303045,
+          0.9999897922867926,
+          -4.894603315366992e-09,
+          3.024848178179999e-07,
+          -0.004518331785581423
+        ],
+        "joint6": 2.34964780824463
+      },
+      {
+        "stage": "grasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.4768826291585256e-08,
+        "body_position_error_m": 5.693017969508827e-05,
+        "body_angle_error_deg": 0.0005894303022082503,
+        "ee_position_error_m": 1.4221668114827427e-05,
+        "ee_angle_error_deg": 0.007038859839520721,
+        "planned_base": [
+          -0.02341810433866742,
+          1.459374510218677e-05,
+          0.339999230162764,
+          0.9999897948004887,
+          -5.0342275112499354e-09,
+          2.684161235889386e-07,
+          -0.004517775426426352
+        ],
+        "joint6": 2.349647095662665
+      },
+      {
+        "stage": "lift",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.7424292872979007e-08,
+        "body_position_error_m": 6.337300325411957e-05,
+        "body_angle_error_deg": 0.0006539986408789078,
+        "ee_position_error_m": 1.638633323573537e-05,
+        "ee_angle_error_deg": 0.008168482720381271,
+        "planned_base": [
+          -0.023424537182542293,
+          1.4336051815269038e-05,
+          0.3999987286941313,
+          0.9999897973146248,
+          -6.616567080308359e-09,
+          3.984975847060789e-07,
+          -0.004517218889524506
+        ],
+        "joint6": 2.3496455662314664
+      }
+    ]
+  },
+  {
+    "case_id": "mustard_yaw_p45",
+    "crouch": {
+      "success": true,
+      "reason": "finite_tracking_step",
+      "foot_error_m": 8.91081631783155e-09,
+      "body_position_error_m": 3.2391315910985714e-05,
+      "body_angle_error_deg": 0.000373852041316199,
+      "ee_position_error_m": 0.0,
+      "ee_angle_error_deg": 0.0,
+      "planned_base": [
+        -0.023328825127857136,
+        1.3723353069837776e-05,
+        0.4200005261112247,
+        0.9999897570530986,
+        1.8489710921170494e-08,
+        5.77929270063253e-07,
+        -0.004526122905002112
+      ]
+    },
+    "stages": [
+      {
+        "stage": "pregrasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.6519144042645068e-08,
+        "body_position_error_m": 5.81881515619337e-05,
+        "body_angle_error_deg": 0.00072275547081642,
+        "ee_position_error_m": 1.5828413621630448e-05,
+        "ee_angle_error_deg": 0.007077639914935602,
+        "planned_base": [
+          -0.0234181195966135,
+          3.201242729175829e-06,
+          0.4199986641239009,
+          0.9999898000233258,
+          -8.065466362388165e-08,
+          4.1627021020195936e-07,
+          -0.0045166192145379615
+        ],
+        "joint6": 0.8297153928506531
+      },
+      {
+        "stage": "grasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.87981005923564e-08,
+        "body_position_error_m": 6.657312119666131e-05,
+        "body_angle_error_deg": 0.0008159109299168835,
+        "ee_position_error_m": 1.6897095644360156e-05,
+        "ee_angle_error_deg": 0.0074482075237668095,
+        "planned_base": [
+          -0.023426598465943003,
+          2.8401696358200757e-06,
+          0.4199986822767487,
+          0.999989803709162,
+          -8.496060995690315e-08,
+          3.8770541180561213e-07,
+          -0.0045158030907224535
+        ],
+        "joint6": 0.8297130368419455
+      },
+      {
+        "stage": "lift",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 2.285629780263892e-08,
+        "body_position_error_m": 7.570042803656173e-05,
+        "body_angle_error_deg": 0.0008560987000780886,
+        "ee_position_error_m": 2.0098619401714872e-05,
+        "ee_angle_error_deg": 0.008917420836016526,
+        "planned_base": [
+          -0.023435885978885764,
+          3.0594586131274376e-06,
+          0.47999793192131696,
+          0.9999898052487961,
+          -8.442526852149992e-08,
+          5.506917816477749e-07,
+          -0.004515462120876557
+        ],
+        "joint6": 0.8297110098956036
+      }
+    ]
+  },
+  {
+    "case_id": "sugar_yaw_p45",
+    "crouch": {
+      "success": true,
+      "reason": "finite_tracking_step",
+      "foot_error_m": 8.91081631783155e-09,
+      "body_position_error_m": 3.2391315910985714e-05,
+      "body_angle_error_deg": 0.000373852041316199,
+      "ee_position_error_m": 0.0,
+      "ee_angle_error_deg": 0.0,
+      "planned_base": [
+        -0.023328825127857136,
+        1.3723353069837776e-05,
+        0.4200005261112247,
+        0.9999897570530986,
+        1.8489710921170494e-08,
+        5.77929270063253e-07,
+        -0.004526122905002112
+      ]
+    },
+    "stages": [
+      {
+        "stage": "pregrasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.757203376535792e-08,
+        "body_position_error_m": 6.273503860883621e-05,
+        "body_angle_error_deg": 0.0007347142147703428,
+        "ee_position_error_m": 1.670382486244194e-05,
+        "ee_angle_error_deg": 0.0074427864373561945,
+        "planned_base": [
+          -0.02342330111079523,
+          6.470810089493717e-06,
+          0.41999858866658535,
+          0.9999898004918563,
+          -5.941047551610278e-08,
+          4.3266491449167313e-07,
+          -0.004516515478373641
+        ],
+        "joint6": 0.813549819051728
+      },
+      {
+        "stage": "grasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.947078011706881e-08,
+        "body_position_error_m": 6.977760212461944e-05,
+        "body_angle_error_deg": 0.0008099920287158763,
+        "ee_position_error_m": 1.7550102574250725e-05,
+        "ee_angle_error_deg": 0.007741700547681997,
+        "planned_base": [
+          -0.0234303839451831,
+          6.280663627451479e-06,
+          0.4199986711520162,
+          0.9999898034757281,
+          -6.197835923215425e-08,
+          3.9130217970287644e-07,
+          -0.004515854782637314
+        ],
+        "joint6": 0.8135483806268597
+      },
+      {
+        "stage": "lift",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 2.396123450012118e-08,
+        "body_position_error_m": 8.008849212097495e-05,
+        "body_angle_error_deg": 0.000875176997475094,
+        "ee_position_error_m": 2.0892879931175994e-05,
+        "ee_angle_error_deg": 0.009256197188579647,
+        "planned_base": [
+          -0.02344076195657926,
+          6.371931793711679e-06,
+          0.4799978643300128,
+          0.999989806000539,
+          -6.204514624804648e-08,
+          5.599307885632002e-07,
+          -0.004515295636717685
+        ],
+        "joint6": 0.8135466829557395
+      }
+    ]
+  },
+  {
+    "case_id": "banana_yaw_p45",
+    "crouch": {
+      "success": true,
+      "reason": "finite_tracking_step",
+      "foot_error_m": 1.2202831714411595e-08,
+      "body_position_error_m": 4.8004943475385433e-05,
+      "body_angle_error_deg": 0.0005103400152168569,
+      "ee_position_error_m": 0.0,
+      "ee_angle_error_deg": 0.0,
+      "planned_base": [
+        -0.023313192789756996,
+        1.4014299096959866e-05,
+        0.3400005410021443,
+        0.9999897518377646,
+        1.3245401178018677e-08,
+        8.939178676589654e-07,
+        -0.004527274969207406
+      ]
+    },
+    "stages": [
+      {
+        "stage": "pregrasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.4136193270594378e-08,
+        "body_position_error_m": 5.452678165795338e-05,
+        "body_angle_error_deg": 0.0005687342307747697,
+        "ee_position_error_m": 1.4387377527431003e-05,
+        "ee_angle_error_deg": 0.007152832854371921,
+        "planned_base": [
+          -0.023415693893860036,
+          1.4253248762724635e-05,
+          0.3399990799213638,
+          0.999989793967994,
+          -6.562261254419282e-09,
+          3.251536210304448e-07,
+          -0.00451795968802678
+        ],
+        "joint6": 0.7789963152888514
+      },
+      {
+        "stage": "grasp",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.5730672525801924e-08,
+        "body_position_error_m": 6.070754150729255e-05,
+        "body_angle_error_deg": 0.0006306564586633757,
+        "ee_position_error_m": 1.5189974721606645e-05,
+        "ee_angle_error_deg": 0.007493609406489474,
+        "planned_base": [
+          -0.02342187818342489,
+          1.4294222275668687e-05,
+          0.33999918154448516,
+          0.999989796423784,
+          -7.175584408012367e-09,
+          2.8614423591212145e-07,
+          -0.004517416101858315
+        ],
+        "joint6": 0.778995594206583
+      },
+      {
+        "stage": "lift",
+        "success": true,
+        "reason": "finite_tracking_step",
+        "foot_error_m": 1.847455158482718e-08,
+        "body_position_error_m": 6.724134757692876e-05,
+        "body_angle_error_deg": 0.0006954131308321083,
+        "ee_position_error_m": 1.743997856657477e-05,
+        "ee_angle_error_deg": 0.008632984912418139,
+        "planned_base": [
+          -0.02342840106443947,
+          1.4038904776705658e-05,
+          0.3999986599159549,
+          0.9999897989435302,
+          -8.384380612795179e-09,
+          4.224430324551784e-07,
+          -0.004516858277515942
+        ],
+        "joint6": 0.7789939569455401
+      }
+    ]
+  }
+]

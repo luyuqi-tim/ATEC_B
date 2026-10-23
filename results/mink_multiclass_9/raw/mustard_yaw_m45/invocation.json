@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/root/Desktop/TaskB/experiments/mink_wholebody/bench.py",
+    "--mode",
+    "grasp",
+    "--trials",
+    "1",
+    "--headless",
+    "--enable_cameras",
+    "--record-video",
+    "--config",
+    "/root/Desktop/TaskB/experiments/mink_multiclass/configs/mustard_yaw_m45.json",
+    "--output",
+    "/root/Desktop/TaskB/runs/mink_multiclass/nine_01/mustard_yaw_m45"
+  ],
+  "output": "/root/Desktop/TaskB/runs/mink_multiclass/nine_01/mustard_yaw_m45",
+  "history_warmup": 100
+}

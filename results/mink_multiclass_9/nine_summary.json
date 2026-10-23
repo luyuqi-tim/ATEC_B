@@ -1,0 +1,4519 @@
+{
+  "title": "三个物体、三个朝向，九次已知目标抓取测试",
+  "objects": [
+    "mustard",
+    "sugar",
+    "banana"
+  ],
+  "angles_deg": [
+    -45,
+    0,
+    45
+  ],
+  "case_count": 9,
+  "process_invocations": 9,
+  "attempts_per_case": 1,
+  "retries": 0,
+  "navigation_tested": false,
+  "distance_sweep": false,
+  "initial_object_root_xy_m": [
+    0.55,
+    0.0
+  ],
+  "physical_grasp_success_count": 6,
+  "verified_success_count": 6,
+  "frozen_files_unchanged": true,
+  "thresholds": {
+    "ik_position_m": 0.005,
+    "ik_orientation_deg": 5.0,
+    "rise_m": 0.1,
+    "bottom_m": 0.02,
+    "hold_s": 3.0,
+    "tilt_deg": 15.0,
+    "drift_m": 0.1
+  },
+  "results": [
+    {
+      "object": "mustard",
+      "yaw_deg": 0,
+      "case_id": "mustard_yaw_p00",
+      "attempts": 1,
+      "physical_grasp_success": true,
+      "verified_success": true,
+      "state": "DONE",
+      "reason": "",
+      "max_rise_m": 0.1481846123933792,
+      "max_valid_hold_s": 5.899999999999962,
+      "valid_HOLD_s": 4.000000000000003,
+      "hold_min_bottom_m": 0.1462486939236612,
+      "hold_min_fixed_jaw_N": 26.212735498974627,
+      "hold_min_moving_jaw_N": 30.084532925402378,
+      "max_active_tilt_deg": 1.0777450410612088,
+      "max_active_drift_m": 0.00778425857424736,
+      "path_clear": true,
+      "minimum_arm_floor_m": 0.1377716119371818,
+      "path_overlap_count": 0,
+      "native_contact_errors": 0,
+      "configured_root_distance_m": 0.55,
+      "body_height_m": 0.42,
+      "sim_time_s": 51.28,
+      "video": "mustard_yaw_p00.mp4",
+      "last_actual_tcp_error_m": 0.003526663068858783,
+      "last_model_tcp_error_m": 3.147877329759804e-05,
+      "last_fixed_jaw_force_N": 26.144906853551237,
+      "last_moving_jaw_force_N": 30.116428562384222
+    },
+    {
+      "object": "sugar",
+      "yaw_deg": 0,
+      "case_id": "sugar_yaw_p00",
+      "attempts": 1,
+      "physical_grasp_success": true,
+      "verified_success": true,
+      "state": "DONE",
+      "reason": "",
+      "max_rise_m": 0.14629213511943817,
+      "max_valid_hold_s": 5.839999999999963,
+      "valid_HOLD_s": 4.000000000000003,
+      "hold_min_bottom_m": 0.14424829034430992,
+      "hold_min_fixed_jaw_N": 34.73278947614034,
+      "hold_min_moving_jaw_N": 38.12667754204033,
+      "max_active_tilt_deg": 1.0744718801107203,
+      "max_active_drift_m": 0.007976993918418884,
+      "path_clear": true,
+      "minimum_arm_floor_m": 0.11036788055374908,
+      "path_overlap_count": 0,
+      "native_contact_errors": 0,
+      "configured_root_distance_m": 0.55,
+      "body_height_m": 0.42,
+      "sim_time_s": 51.28,
+      "video": "sugar_yaw_p00.mp4",
+      "last_actual_tcp_error_m": 0.003524345665878076,
+      "last_model_tcp_error_m": 3.130070129474416e-05,
+      "last_fixed_jaw_force_N": 34.60896277605618,
+      "last_moving_jaw_force_N": 38.09888603144576
+    },
+    {
+      "object": "banana",
+      "yaw_deg": 0,
+      "case_id": "banana_yaw_p00",
+      "attempts": 1,
+      "physical_grasp_success": false,
+      "verified_success": false,
+      "state": "FAIL",
+      "reason": "approach_timeout",
+      "max_rise_m": 3.515556454658508e-05,
+      "max_valid_hold_s": 0.0,
+      "valid_HOLD_s": 0.0,
+      "hold_min_bottom_m": 0.0,
+      "hold_min_fixed_jaw_N": 0.0,
+      "hold_min_moving_jaw_N": 0.0,
+      "max_active_tilt_deg": 1.0777450410612088,
+      "max_active_drift_m": 0.0157187357544899,
+      "path_clear": true,
+      "minimum_arm_floor_m": 0.032254899286634,
+      "path_overlap_count": 0,
+      "native_contact_errors": 0,
+      "configured_root_distance_m": 0.55,
+      "body_height_m": 0.34,
+      "sim_time_s": 41.24,
+      "video": "banana_yaw_p00.mp4",
+      "last_actual_tcp_error_m": 0.015372205919547972,
+      "last_model_tcp_error_m": 2.7901602353522424e-05,
+      "last_fixed_jaw_force_N": 40.39633227981007,
+      "last_moving_jaw_force_N": 0.0
+    },
+    {
+      "object": "mustard",
+      "yaw_deg": -45,
+      "case_id": "mustard_yaw_m45",
+      "attempts": 1,
+      "physical_grasp_success": true,
+      "verified_success": true,
+      "state": "DONE",
+      "reason": "",
+      "max_rise_m": 0.14784550666809082,
+      "max_valid_hold_s": 5.899999999999962,
+      "valid_HOLD_s": 4.000000000000003,
+      "hold_min_bottom_m": 0.14573926539625626,
+      "hold_min_fixed_jaw_N": 26.00009577271457,
+      "hold_min_moving_jaw_N": 27.756383430425103,
+      "max_active_tilt_deg": 1.0777450410612088,
+      "max_active_drift_m": 0.007737136445939541,
+      "path_clear": true,
+      "minimum_arm_floor_m": 0.13781075108757862,
+      "path_overlap_count": 0,
+      "native_contact_errors": 0,
+      "configured_root_distance_m": 0.55,
+      "body_height_m": 0.42,
+      "sim_time_s": 51.28,
+      "video": "mustard_yaw_m45.mp4",
+      "last_actual_tcp_error_m": 0.0027130438744935774,
+      "last_model_tcp_error_m": 3.336543410897389e-05,
+      "last_fixed_jaw_force_N": 25.582336293438534,
+      "last_moving_jaw_force_N": 27.816049263409415
+    },
+    {
+      "object": "sugar",
+      "yaw_deg": -45,
+      "case_id": "sugar_yaw_m45",
+      "attempts": 1,
+      "physical_grasp_success": true,
+      "verified_success": true,
+      "state": "DONE",
+      "reason": "",
+      "max_rise_m": 0.1462450996041298,
+      "max_valid_hold_s": 5.819999999999964,
+      "valid_HOLD_s": 4.000000000000003,
+      "hold_min_bottom_m": 0.14416071550039938,
+      "hold_min_fixed_jaw_N": 34.54940235580865,
+      "hold_min_moving_jaw_N": 37.99785275289985,
+      "max_active_tilt_deg": 1.07264914208905,
+      "max_active_drift_m": 0.007737397216260433,
+      "path_clear": true,
+      "minimum_arm_floor_m": 0.11045335734014688,
+      "path_overlap_count": 0,
+      "native_contact_errors": 0,
+      "configured_root_distance_m": 0.55,
+      "body_height_m": 0.42,
+      "sim_time_s": 51.28,
+      "video": "sugar_yaw_m45.mp4",
+      "last_actual_tcp_error_m": 0.0027552156177506944,
+      "last_model_tcp_error_m": 3.2437980294094985e-05,
+      "last_fixed_jaw_force_N": 34.11917838757283,
+      "last_moving_jaw_force_N": 37.994278498336094
+    },
+    {
+      "object": "banana",
+      "yaw_deg": -45,
+      "case_id": "banana_yaw_m45",
+      "attempts": 1,
+      "physical_grasp_success": false,
+      "verified_success": false,
+      "state": "FAIL",
+      "reason": "approach_timeout",
+      "max_rise_m": 8.022412657737732e-06,
+      "max_valid_hold_s": 0.0,
+      "valid_HOLD_s": 0.0,
+      "hold_min_bottom_m": 0.0,
+      "hold_min_fixed_jaw_N": 0.0,
+      "hold_min_moving_jaw_N": 0.0,
+      "max_active_tilt_deg": 1.0777450410612088,
+      "max_active_drift_m": 0.01598779670894146,
+      "path_clear": true,
+      "minimum_arm_floor_m": 0.030936495661641472,
+      "path_overlap_count": 0,
+      "native_contact_errors": 0,
+      "configured_root_distance_m": 0.55,
+      "body_height_m": 0.34,
+      "sim_time_s": 41.24,
+      "video": "banana_yaw_m45.mp4",
+      "last_actual_tcp_error_m": 0.013998487273328069,
+      "last_model_tcp_error_m": 2.7392085787349566e-05,
+      "last_fixed_jaw_force_N": 31.560928480038484,
+      "last_moving_jaw_force_N": 0.0
+    },
+    {
+      "object": "mustard",
+      "yaw_deg": 45,
+      "case_id": "mustard_yaw_p45",
+      "attempts": 1,
+      "physical_grasp_success": true,
+      "verified_success": true,
+      "state": "DONE",
+      "reason": "",
+      "max_rise_m": 0.14794006943702698,
+      "max_valid_hold_s": 5.899999999999962,
+      "valid_HOLD_s": 4.000000000000003,
+      "hold_min_bottom_m": 0.14599785993436593,
+      "hold_min_fixed_jaw_N": 26.30556551755635,
+      "hold_min_moving_jaw_N": 29.060286786548378,
+      "max_active_tilt_deg": 1.0777450410612088,
+      "max_active_drift_m": 0.008141672238707542,
+      "path_clear": true,
+      "minimum_arm_floor_m": 0.13770705680406398,
+      "path_overlap_count": 0,
+      "native_contact_errors": 0,
+      "configured_root_distance_m": 0.55,
+      "body_height_m": 0.42,
+      "sim_time_s": 51.28,
+      "video": "mustard_yaw_p45.mp4",
+      "last_actual_tcp_error_m": 0.0037878938426243168,
+      "last_model_tcp_error_m": 2.9369098859728854e-05,
+      "last_fixed_jaw_force_N": 26.582549712946374,
+      "last_moving_jaw_force_N": 29.086714758975727
+    },
+    {
+      "object": "sugar",
+      "yaw_deg": 45,
+      "case_id": "sugar_yaw_p45",
+      "attempts": 1,
+      "physical_grasp_success": true,
+      "verified_success": true,
+      "state": "DONE",
+      "reason": "",
+      "max_rise_m": 0.1464449241757393,
+      "max_valid_hold_s": 5.839999999999963,
+      "valid_HOLD_s": 4.000000000000003,
+      "hold_min_bottom_m": 0.14440154222472437,
+      "hold_min_fixed_jaw_N": 34.720832065515935,
+      "hold_min_moving_jaw_N": 38.52848932505317,
+      "max_active_tilt_deg": 1.0715540112019857,
+      "max_active_drift_m": 0.0084374425932765,
+      "path_clear": true,
+      "minimum_arm_floor_m": 0.11038279389932387,
+      "path_overlap_count": 0,
+      "native_contact_errors": 0,
+      "configured_root_distance_m": 0.55,
+      "body_height_m": 0.42,
+      "sim_time_s": 51.28,
+      "video": "sugar_yaw_p45.mp4",
+      "last_actual_tcp_error_m": 0.00376084515842354,
+      "last_model_tcp_error_m": 3.0061044144845025e-05,
+      "last_fixed_jaw_force_N": 35.00240891548837,
+      "last_moving_jaw_force_N": 38.487471290525974
+    },
+    {
+      "object": "banana",
+      "yaw_deg": 45,
+      "case_id": "banana_yaw_p45",
+      "attempts": 1,
+      "physical_grasp_success": false,
+      "verified_success": false,
+      "state": "FAIL",
+      "reason": "approach_timeout",
+      "max_rise_m": 2.4013221263885498e-05,
+      "max_valid_hold_s": 0.0,
+      "valid_HOLD_s": 0.0,
+      "hold_min_bottom_m": 0.0,
+      "hold_min_fixed_jaw_N": 0.0,
+      "hold_min_moving_jaw_N": 0.0,
+      "max_active_tilt_deg": 1.0777450410612088,
+      "max_active_drift_m": 0.015899449586868286,
+      "path_clear": true,
+      "minimum_arm_floor_m": 0.03187815898345708,
+      "path_overlap_count": 0,
+      "native_contact_errors": 0,
+      "configured_root_distance_m": 0.55,
+      "body_height_m": 0.34,
+      "sim_time_s": 41.24,
+      "video": "banana_yaw_p45.mp4",
+      "last_actual_tcp_error_m": 0.01521768562363552,
+      "last_model_tcp_error_m": 2.8377389876951778e-05,
+      "last_fixed_jaw_force_N": 43.401486677123714,
+      "last_moving_jaw_force_N": 0.0
+    }
+  ],
+  "details": [
+    {
+      "case": {
+        "case_id": "mustard_yaw_p00",
+        "object": "mustard",
+        "yaw_deg": 0,
+        "config": "experiments/mink_multiclass/configs/mustard_yaw_p00.json"
+      },
+      "configuration": {
+        "title": "三物体三朝向已知目标抓取诊断",
+        "object_asset": "006_mustard_bottle.usd",
+        "object_xy": [
+          0.55,
+          0.0
+        ],
+        "object_quat_wxyz": [
+          0.7071067811865477,
+          -0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        "tcp_offset_link06": [
+          0.21,
+          0.0,
+          0.02
+        ],
+        "grasp_world": [
+          0.55,
+          -2.331468351712829e-17,
+          0.167
+        ],
+        "grasp_rpy": [
+          1.5707963267948966,
+          1.5707963267948966,
+          0.0
+        ],
+        "pregrasp_up": 0.12,
+        "lift_up": 0.15,
+        "arm_speed_rad_s": 0.4,
+        "gripper_open": -1.3,
+        "stage_limits_s": {
+          "SETTLE": 6.0,
+          "OPEN": 9.0,
+          "PREGRASP": 18.0,
+          "APPROACH": 14.0,
+          "CLOSE": 10.0,
+          "LIFT": 15.0,
+          "HOLD": 4.0,
+          "SQUAT": 14.0
+        },
+        "thresholds": {
+          "ik_position_m": 0.005,
+          "ik_orientation_deg": 5.0,
+          "rise_m": 0.1,
+          "bottom_m": 0.02,
+          "hold_s": 3.0,
+          "tilt_deg": 15.0,
+          "drift_m": 0.1
+        },
+        "max_sim_s": 100.0,
+        "max_wall_s": 300.0,
+        "notes": "Exactly one physical attempt per case; no navigation, no distance sweep, no retries. Geometry-defined known grasp point. Thresholds and dynamics unchanged.",
+        "grasp_local_point": [
+          0.0,
+          -0.07,
+          0.0
+        ],
+        "history_initialization": "100 repeated initial measured standing observations, required by supplied deployment manifest",
+        "body_height": 0.42,
+        "lift_body_height": 0.48,
+        "body_pitch_rad": 0.0,
+        "squat_duration_s": 8.0,
+        "handover_s": 2.0,
+        "case_id": "mustard_yaw_p00",
+        "object_class": "mustard",
+        "object_yaw_deg": 0,
+        "distance_tested": false,
+        "root_distance_m": 0.55,
+        "repeat_count": 1
+      },
+      "result": {
+        "success": true,
+        "max_rise_m": 0.1481846123933792,
+        "max_valid_hold_s": 5.899999999999962,
+        "last": {
+          "sim_time": 51.28,
+          "state": "DONE",
+          "initial_root_z": 0.0952235758304596,
+          "object_root": [
+            0.5528582334518433,
+            -0.006338929757475853,
+            0.24260418117046356
+          ],
+          "rise_m": 0.14738060534000397,
+          "bottom_m": 0.14641653860728093,
+          "grip_point_in_wrist": [
+            0.2121468870274069,
+            7.431482714020437e-05,
+            0.023159780345815065
+          ],
+          "in_jaws": true,
+          "jaw_forces": [
+            26.144906853551237,
+            30.116428562384222
+          ],
+          "dual_contact": true,
+          "tilt_deg": 0.05233915627441309,
+          "drift_m": 0.00436934269964695,
+          "illegal_contact": false,
+          "valid_hold_s": 5.899999999999962,
+          "filtered_jaw_forces": [
+            0.0,
+            0.0
+          ],
+          "net_jaw_forces": [
+            26.11957550048828,
+            30.08184242248535
+          ],
+          "native_contacts": [
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.05037079757750451,
+              "positions": [
+                [
+                  0.5504961609840393,
+                  -0.014347091317176819,
+                  0.33366578817367554
+                ],
+                [
+                  0.5527107119560242,
+                  -0.01422201283276081,
+                  0.3333190977573395
+                ],
+                [
+                  0.5503294467926025,
+                  -0.014572836458683014,
+                  0.3332596719264984
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.13093512972365132,
+              "positions": [
+                [
+                  0.5620976686477661,
+                  0.022398868575692177,
+                  0.29235318303108215
+                ],
+                [
+                  0.5445508360862732,
+                  0.022626381367444992,
+                  0.2926815450191498
+                ],
+                [
+                  0.5620654225349426,
+                  0.022393716499209404,
+                  0.29180237650871277
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.10019181492081963,
+              "positions": [
+                [
+                  0.5436509251594543,
+                  -0.023616088554263115,
+                  0.31699150800704956
+                ],
+                [
+                  0.5507520437240601,
+                  -0.014000725001096725,
+                  0.3342888355255127
+                ],
+                [
+                  0.5526706576347351,
+                  -0.01378367654979229,
+                  0.33420562744140625
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.05037694148339337,
+              "positions": [
+                [
+                  0.5505042672157288,
+                  -0.0143473194912076,
+                  0.3336580991744995
+                ],
+                [
+                  0.5527188777923584,
+                  -0.014222349971532822,
+                  0.33331140875816345
+                ],
+                [
+                  0.550337553024292,
+                  -0.014573058113455772,
+                  0.3332520127296448
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.13064275395470776,
+              "positions": [
+                [
+                  0.562106728553772,
+                  0.022397950291633606,
+                  0.29234516620635986
+                ],
+                [
+                  0.5445599555969238,
+                  0.02262631617486477,
+                  0.29267388582229614
+                ],
+                [
+                  0.5620744228363037,
+                  0.02239280194044113,
+                  0.2917943596839905
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.10030733693386078,
+              "positions": [
+                [
+                  0.5436582565307617,
+                  -0.023616040125489235,
+                  0.31698399782180786
+                ],
+                [
+                  0.5507602095603943,
+                  -0.014000965282320976,
+                  0.33428114652633667
+                ],
+                [
+                  0.5526788830757141,
+                  -0.013784009963274002,
+                  0.3341979384422302
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.04979442088788033,
+              "positions": [
+                [
+                  0.5505198240280151,
+                  -0.014347504824399948,
+                  0.33363211154937744
+                ],
+                [
+                  0.5527344346046448,
+                  -0.014222558587789536,
+                  0.3332855999469757
+                ],
+                [
+                  0.5503531098365784,
+                  -0.014573246240615845,
+                  0.3332259953022003
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.1307223749810245,
+              "positions": [
+                [
+                  0.5621261596679688,
+                  0.022397365421056747,
+                  0.2923198938369751
+                ],
+                [
+                  0.5445793271064758,
+                  0.022625910118222237,
+                  0.292647123336792
+                ],
+                [
+                  0.5620939135551453,
+                  0.022392211481928825,
+                  0.2917690873146057
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.10083175221190192,
+              "positions": [
+                [
+                  0.5436751246452332,
+                  -0.02361627109348774,
+                  0.3169574737548828
+                ],
+                [
+                  0.5507757067680359,
+                  -0.01400114968419075,
+                  0.3342551589012146
+                ],
+                [
+                  0.5526943802833557,
+                  -0.013784212991595268,
+                  0.3341720998287201
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.04907252695191288,
+              "positions": [
+                [
+                  0.5505484938621521,
+                  -0.01434667780995369,
+                  0.3335813283920288
+                ],
+                [
+                  0.5527631640434265,
+                  -0.014221787452697754,
+                  0.33323508501052856
+                ],
+                [
+                  0.5503818392753601,
+                  -0.014572422951459885,
+                  0.3331751823425293
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.13059787841164117,
+              "positions": [
+                [
+                  0.5621612071990967,
+                  0.022396933287382126,
+                  0.292269766330719
+                ],
+                [
+                  0.5446143746376038,
+                  0.022625867277383804,
+                  0.29259464144706726
+                ],
+                [
+                  0.5621290802955627,
+                  0.02239176630973816,
+                  0.291718989610672
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.10138298028041105,
+              "positions": [
+                [
+                  0.5437058210372925,
+                  -0.023615695536136627,
+                  0.3169059753417969
+                ],
+                [
+                  0.5508043169975281,
+                  -0.014000311493873596,
+                  0.33420440554618835
+                ],
+                [
+                  0.5527229309082031,
+                  -0.013783418573439121,
+                  0.33412158489227295
+                ]
+              ]
+            }
+          ],
+          "native_contact_errors": []
+        },
+        "trial": 1,
+        "mode": "grasp",
+        "state": "DONE",
+        "reason": "",
+        "history": [
+          {
+            "time": 6.01999999999996,
+            "from": "SETTLE",
+            "to": "SQUAT",
+            "reason": ""
+          },
+          {
+            "time": 16.039999999999747,
+            "from": "SQUAT",
+            "to": "OPEN",
+            "reason": ""
+          },
+          {
+            "time": 21.199999999999637,
+            "from": "OPEN",
+            "to": "PREGRASP",
+            "reason": ""
+          },
+          {
+            "time": 27.21999999999951,
+            "from": "PREGRASP",
+            "to": "APPROACH",
+            "reason": ""
+          },
+          {
+            "time": 33.2399999999996,
+            "from": "APPROACH",
+            "to": "CLOSE",
+            "reason": ""
+          },
+          {
+            "time": 41.26000000000085,
+            "from": "CLOSE",
+            "to": "LIFT",
+            "reason": ""
+          },
+          {
+            "time": 47.28000000000179,
+            "from": "LIFT",
+            "to": "HOLD",
+            "reason": ""
+          },
+          {
+            "time": 51.28000000000242,
+            "from": "HOLD",
+            "to": "DONE",
+            "reason": ""
+          }
+        ],
+        "sim_time": 51.28,
+        "wall_time": 134.96674147667363,
+        "frames": 513,
+        "max_frame_difference": 9.233939887152777,
+        "config_sha256": "c5871fc27e30a572a8bd20788472f5f4c3da26a88bcc9911861afd1e8c46f487",
+        "last_ik": {
+          "success": true,
+          "reason": "finite_tracking_step",
+          "foot_error_m": 3.533423228496531e-08,
+          "body_position_error_m": 0.00011799923776224744,
+          "body_angle_error_deg": 0.0012822666711427386,
+          "ee_position_error_m": 3.147877329759804e-05,
+          "ee_angle_error_deg": 0.014225339550637244,
+          "planned_base": [
+            -0.03067427784281861,
+            -1.3011569542269203e-05,
+            0.4799968019971755,
+            0.9999898219757346,
+            -1.0805634659383816e-07,
+            8.633660907023733e-07,
+            -0.004511756219168658
+          ],
+          "actual_foot_anchor_error_m": 0.003955408174025541,
+          "actual_position_error": 0.003526663068858783,
+          "actual_orientation_error_deg": 0.8077588150300208,
+          "body_goal": [
+            -0.03055715188384056,
+            9.587965905666351e-07,
+            0.47999998927116394
+          ],
+          "contact_force_targets": [
+            [
+              -1.197181834257907,
+              0.05016282541422823,
+              174.0896040929174
+            ],
+            [
+              -1.1974551139416387,
+              0.050174276039916005,
+              174.1293433794536
+            ],
+            [
+              -0.9697084976078334,
+              0.04063152035575921,
+              141.01130137739597
+            ],
+            [
+              -0.9778131850702909,
+              0.040971112897662545,
+              142.18985403436196
+            ]
+          ],
+          "model_mass": 75.68647079999998,
+          "support_com": [
+            -0.00765522977951761,
+            0.0033162472076953744,
+            0.4622923857796226
+          ],
+          "support_torque": [
+            27.832509815487064,
+            -0.6283993085856138,
+            46.06629270366013,
+            -28.428811925246002,
+            -4.172963384168733,
+            44.08491571798289,
+            23.847942695630838,
+            -2.895239093894677,
+            35.75811398495962,
+            -25.48073969284192,
+            -2.6875110418059234,
+            35.84839461655912
+          ],
+          "joint_gravity_ff": [
+            -4.568020820617676,
+            2.7847542762756348,
+            -0.7417168617248535,
+            4.565387725830078,
+            2.9176082611083984,
+            -0.712702751159668,
+            -4.604196071624756,
+            2.880791664123535,
+            -0.7136261463165283,
+            4.675974369049072,
+            2.8476176261901855,
+            -0.7097622752189636
+          ],
+          "joint_total_ff": [
+            23.26448899486939,
+            2.156354967690021,
+            45.32457584193528,
+            -23.863424199415924,
+            -1.2553551230603341,
+            43.37221296682322,
+            19.243746624006082,
+            -0.014447429771141884,
+            35.04448783864309,
+            -20.804765323792846,
+            0.16010658438426217,
+            35.138632341340156
+          ]
+        },
+        "isaac_urdf_wrist_fk_error_m": 4.249484739262298e-07,
+        "usd_base_translation": [
+          -0.027728445827960968,
+          -0.00011963210999965668,
+          0.4786280393600464
+        ],
+        "physx_base_translation": [
+          -0.027728445827960968,
+          -0.00011963210999965668,
+          0.4786280393600464
+        ],
+        "usd_physx_translation_error_m": 0.0
+      },
+      "path_audit": {
+        "run": "/root/Desktop/TaskB/runs/mink_multiclass/nine_01/mustard_yaw_p00/trial_01",
+        "sampled_frames": 519,
+        "obb_pair_tests": 114699,
+        "minimum_arm_ground_clearance_m": 0.1377716119371818,
+        "conservative_overlap_count": 0,
+        "events": [],
+        "clear": true,
+        "method": "Local URDF collision AABBs transformed as OBBs, 15-axis SAT against body and all leg links, camera/trace checked separately. Fixed mount excluded."
+      }
+    },
+    {
+      "case": {
+        "case_id": "sugar_yaw_p00",
+        "object": "sugar",
+        "yaw_deg": 0,
+        "config": "experiments/mink_multiclass/configs/sugar_yaw_p00.json"
+      },
+      "configuration": {
+        "title": "三物体三朝向已知目标抓取诊断",
+        "object_asset": "004_sugar_box.usd",
+        "object_xy": [
+          0.55,
+          0.0
+        ],
+        "object_quat_wxyz": [
+          0.7071067811865477,
+          -0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        "tcp_offset_link06": [
+          0.21,
+          0.0,
+          0.012
+        ],
+        "grasp_world": [
+          0.55,
+          -1.665334536937735e-17,
+          0.1396
+        ],
+        "grasp_rpy": [
+          1.5707963267948966,
+          1.5707963267948966,
+          0.0
+        ],
+        "pregrasp_up": 0.12,
+        "lift_up": 0.15,
+        "arm_speed_rad_s": 0.4,
+        "gripper_open": -1.3,
+        "stage_limits_s": {
+          "SETTLE": 6.0,
+          "OPEN": 9.0,
+          "PREGRASP": 18.0,
+          "APPROACH": 14.0,
+          "CLOSE": 10.0,
+          "LIFT": 15.0,
+          "HOLD": 4.0,
+          "SQUAT": 14.0
+        },
+        "thresholds": {
+          "ik_position_m": 0.005,
+          "ik_orientation_deg": 5.0,
+          "rise_m": 0.1,
+          "bottom_m": 0.02,
+          "hold_s": 3.0,
+          "tilt_deg": 15.0,
+          "drift_m": 0.1
+        },
+        "max_sim_s": 100.0,
+        "max_wall_s": 300.0,
+        "notes": "Exactly one physical attempt per case; no navigation, no distance sweep, no retries. Geometry-defined known grasp point. Thresholds and dynamics unchanged.",
+        "grasp_local_point": [
+          0.0,
+          -0.05,
+          0.0
+        ],
+        "history_initialization": "100 repeated initial measured standing observations, required by supplied deployment manifest",
+        "body_height": 0.42,
+        "lift_body_height": 0.48,
+        "body_pitch_rad": 0.0,
+        "squat_duration_s": 8.0,
+        "handover_s": 2.0,
+        "case_id": "sugar_yaw_p00",
+        "object_class": "sugar",
+        "object_yaw_deg": 0,
+        "distance_tested": false,
+        "root_distance_m": 0.55,
+        "repeat_count": 1
+      },
+      "result": {
+        "success": true,
+        "max_rise_m": 0.14629213511943817,
+        "max_valid_hold_s": 5.839999999999963,
+        "last": {
+          "sim_time": 51.28,
+          "state": "DONE",
+          "initial_root_z": 0.08735421299934387,
+          "object_root": [
+            0.548546314239502,
+            -0.00737310666590929,
+            0.23284852504730225
+          ],
+          "rise_m": 0.14549431204795837,
+          "bottom_m": 0.1444253497382606,
+          "grip_point_in_wrist": [
+            0.21451379101497794,
+            -0.004205717028293526,
+            0.01505469362522669
+          ],
+          "in_jaws": true,
+          "jaw_forces": [
+            34.60896277605618,
+            38.09888603144576
+          ],
+          "dual_contact": true,
+          "tilt_deg": 0.05233915627441309,
+          "drift_m": 0.0043720961548388,
+          "illegal_contact": false,
+          "valid_hold_s": 5.839999999999963,
+          "filtered_jaw_forces": [
+            0.0,
+            0.0
+          ],
+          "net_jaw_forces": [
+            34.530120849609375,
+            38.06688690185547
+          ],
+          "native_contacts": [
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.17352633789089253,
+              "positions": [
+                [
+                  0.5756151080131531,
+                  0.014715936034917831,
+                  0.29858458042144775
+                ],
+                [
+                  0.5276463031768799,
+                  0.015179108828306198,
+                  0.29873910546302795
+                ],
+                [
+                  0.5680344104766846,
+                  0.014406530186533928,
+                  0.26457464694976807
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.19066836377148397,
+              "positions": [
+                [
+                  0.5102412700653076,
+                  -0.023484649136662483,
+                  0.3194062411785126
+                ],
+                [
+                  0.5849350094795227,
+                  -0.023663943633437157,
+                  0.32125261425971985
+                ],
+                [
+                  0.5102536082267761,
+                  -0.023512642830610275,
+                  0.3192533552646637
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.17314743249651615,
+              "positions": [
+                [
+                  0.5756210088729858,
+                  0.014715643599629402,
+                  0.2985773980617523
+                ],
+                [
+                  0.5276522636413574,
+                  0.015178829431533813,
+                  0.2987307906150818
+                ],
+                [
+                  0.5680411458015442,
+                  0.014406280592083931,
+                  0.2645672857761383
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.1905661958576304,
+              "positions": [
+                [
+                  0.510246753692627,
+                  -0.02348494529724121,
+                  0.3193974494934082
+                ],
+                [
+                  0.5849404335021973,
+                  -0.023664264008402824,
+                  0.32124561071395874
+                ],
+                [
+                  0.5102590322494507,
+                  -0.023512940853834152,
+                  0.3192445635795593
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.17285488278852912,
+              "positions": [
+                [
+                  0.5756394863128662,
+                  0.014715234749019146,
+                  0.2985525131225586
+                ],
+                [
+                  0.5276707410812378,
+                  0.015178629197180271,
+                  0.29870307445526123
+                ],
+                [
+                  0.5680616497993469,
+                  0.014405257068574429,
+                  0.26454195380210876
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.19040872556328825,
+              "positions": [
+                [
+                  0.5102638006210327,
+                  -0.02348468080163002,
+                  0.31936943531036377
+                ],
+                [
+                  0.5849574208259583,
+                  -0.02366427704691887,
+                  0.3212220072746277
+                ],
+                [
+                  0.5102761387825012,
+                  -0.02351268008351326,
+                  0.3192165791988373
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.17265060234518587,
+              "positions": [
+                [
+                  0.575672447681427,
+                  0.014715012162923813,
+                  0.29850339889526367
+                ],
+                [
+                  0.5277036428451538,
+                  0.015178702771663666,
+                  0.2986494302749634
+                ],
+                [
+                  0.5680977702140808,
+                  0.014404352754354477,
+                  0.26449212431907654
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.19033443543651257,
+              "positions": [
+                [
+                  0.5102945566177368,
+                  -0.02348405495285988,
+                  0.31931501626968384
+                ],
+                [
+                  0.5849879384040833,
+                  -0.0236640777438879,
+                  0.3211745619773865
+                ],
+                [
+                  0.5103068947792053,
+                  -0.023512057960033417,
+                  0.31916216015815735
+                ]
+              ]
+            }
+          ],
+          "native_contact_errors": []
+        },
+        "trial": 1,
+        "mode": "grasp",
+        "state": "DONE",
+        "reason": "",
+        "history": [
+          {
+            "time": 6.01999999999996,
+            "from": "SETTLE",
+            "to": "SQUAT",
+            "reason": ""
+          },
+          {
+            "time": 16.039999999999747,
+            "from": "SQUAT",
+            "to": "OPEN",
+            "reason": ""
+          },
+          {
+            "time": 21.199999999999637,
+            "from": "OPEN",
+            "to": "PREGRASP",
+            "reason": ""
+          },
+          {
+            "time": 27.21999999999951,
+            "from": "PREGRASP",
+            "to": "APPROACH",
+            "reason": ""
+          },
+          {
+            "time": 33.2399999999996,
+            "from": "APPROACH",
+            "to": "CLOSE",
+            "reason": ""
+          },
+          {
+            "time": 41.26000000000085,
+            "from": "CLOSE",
+            "to": "LIFT",
+            "reason": ""
+          },
+          {
+            "time": 47.28000000000179,
+            "from": "LIFT",
+            "to": "HOLD",
+            "reason": ""
+          },
+          {
+            "time": 51.28000000000242,
+            "from": "HOLD",
+            "to": "DONE",
+            "reason": ""
+          }
+        ],
+        "sim_time": 51.28,
+        "wall_time": 134.73480495484546,
+        "frames": 513,
+        "max_frame_difference": 9.276469184027778,
+        "config_sha256": "81931c92bc7c83729fb29f9f6e725929a1ee7567a85ff9866b04c5f0b69b725b",
+        "last_ik": {
+          "success": true,
+          "reason": "finite_tracking_step",
+          "foot_error_m": 3.5484344279943e-08,
+          "body_position_error_m": 0.00011951042585188438,
+          "body_angle_error_deg": 0.0012636063117064786,
+          "ee_position_error_m": 3.130070129474416e-05,
+          "ee_angle_error_deg": 0.014013485614249551,
+          "planned_base": [
+            -0.030555388837655496,
+            -4.586577798159695e-05,
+            0.47999682553264683,
+            0.9999899729513452,
+            -7.32749255349471e-08,
+            8.413029671726757e-07,
+            -0.004478168828316848
+          ],
+          "actual_foot_anchor_error_m": 0.003954026758005296,
+          "actual_position_error": 0.003524345665878076,
+          "actual_orientation_error_deg": 0.7734440737020152,
+          "body_goal": [
+            -0.030436286702752113,
+            -3.65162268280983e-05,
+            0.47999998927116394
+          ],
+          "contact_force_targets": [
+            [
+              -1.1947577989819587,
+              0.048577922300576816,
+              174.43302998825683
+            ],
+            [
+              -1.1918395038653915,
+              0.04845926669226562,
+              174.00696283053122
+            ],
+            [
+              -0.9667636634971043,
+              0.039307858185483574,
+              141.14619318663588
+            ],
+            [
+              -0.9715256669292581,
+              0.03950147753906248,
+              141.84143927600468
+            ]
+          ],
+          "model_mass": 75.68647079999998,
+          "support_com": [
+            -0.00741317947049906,
+            0.0029639866731699448,
+            0.46116297304366344
+          ],
+          "support_torque": [
+            27.886829745921,
+            -0.6482985258094772,
+            46.1475700166524,
+            -28.409695181464837,
+            -4.183531043018469,
+            44.04586334161814,
+            23.864230030787354,
+            -2.9134085566620387,
+            35.78555913061847,
+            -25.425720913556965,
+            -2.691594352571278,
+            35.753070986794555
+          ],
+          "joint_gravity_ff": [
+            -4.567901134490967,
+            2.785593032836914,
+            -0.7415626645088196,
+            4.565386772155762,
+            2.9181714057922363,
+            -0.7125674486160278,
+            -4.603803634643555,
+            2.881718873977661,
+            -0.7134891748428345,
+            4.676236152648926,
+            2.848092555999756,
+            -0.70960932970047
+          ],
+          "joint_total_ff": [
+            23.31892861143003,
+            2.1372945070274367,
+            45.40600735214358,
+            -23.844308409309075,
+            -1.2653596372262328,
+            43.33329589300211,
+            19.2604263961438,
+            -0.03168968268437755,
+            35.07206995577564,
+            -20.74948476090804,
+            0.15649820342847764,
+            35.043461657094085
+          ]
+        },
+        "isaac_urdf_wrist_fk_error_m": 5.563375391848905e-07,
+        "usd_base_translation": [
+          -0.02761423960328102,
+          -0.0001518172211945057,
+          0.4786289930343628
+        ],
+        "physx_base_translation": [
+          -0.02761423960328102,
+          -0.0001518172211945057,
+          0.4786289930343628
+        ],
+        "usd_physx_translation_error_m": 0.0
+      },
+      "path_audit": {
+        "run": "/root/Desktop/TaskB/runs/mink_multiclass/nine_01/sugar_yaw_p00/trial_01",
+        "sampled_frames": 519,
+        "obb_pair_tests": 114699,
+        "minimum_arm_ground_clearance_m": 0.11036788055374908,
+        "conservative_overlap_count": 0,
+        "events": [],
+        "clear": true,
+        "method": "Local URDF collision AABBs transformed as OBBs, 15-axis SAT against body and all leg links, camera/trace checked separately. Fixed mount excluded."
+      }
+    },
+    {
+      "case": {
+        "case_id": "banana_yaw_p00",
+        "object": "banana",
+        "yaw_deg": 0,
+        "config": "experiments/mink_multiclass/configs/banana_yaw_p00.json"
+      },
+      "configuration": {
+        "title": "三物体三朝向已知目标抓取诊断",
+        "object_asset": "011_banana.usd",
+        "object_xy": [
+          0.55,
+          0.0
+        ],
+        "object_quat_wxyz": [
+          0.7071067811865477,
+          -0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        "tcp_offset_link06": [
+          0.235,
+          0.0,
+          0.012
+        ],
+        "grasp_world": [
+          0.55,
+          -0.017950000000000004,
+          0.021
+        ],
+        "grasp_rpy": [
+          1.5707963267948966,
+          1.5707963267948966,
+          0.0
+        ],
+        "pregrasp_up": 0.12,
+        "lift_up": 0.15,
+        "arm_speed_rad_s": 0.4,
+        "gripper_open": -1.3,
+        "stage_limits_s": {
+          "SETTLE": 6.0,
+          "OPEN": 9.0,
+          "PREGRASP": 18.0,
+          "APPROACH": 14.0,
+          "CLOSE": 10.0,
+          "LIFT": 15.0,
+          "HOLD": 4.0,
+          "SQUAT": 14.0
+        },
+        "thresholds": {
+          "ik_position_m": 0.005,
+          "ik_orientation_deg": 5.0,
+          "rise_m": 0.1,
+          "bottom_m": 0.02,
+          "hold_s": 3.0,
+          "tilt_deg": 15.0,
+          "drift_m": 0.1
+        },
+        "max_sim_s": 100.0,
+        "max_wall_s": 300.0,
+        "notes": "Exactly one physical attempt per case; no navigation, no distance sweep, no retries. Geometry-defined known grasp point. Thresholds and dynamics unchanged.",
+        "grasp_local_point": [
+          0.0,
+          0.0,
+          -0.01795
+        ],
+        "history_initialization": "100 repeated initial measured standing observations, required by supplied deployment manifest",
+        "body_height": 0.34,
+        "lift_body_height": 0.4,
+        "body_pitch_rad": 0.0,
+        "squat_duration_s": 8.0,
+        "handover_s": 2.0,
+        "case_id": "banana_yaw_p00",
+        "object_class": "banana",
+        "object_yaw_deg": 0,
+        "distance_tested": false,
+        "root_distance_m": 0.55,
+        "repeat_count": 1
+      },
+      "result": {
+        "success": false,
+        "max_rise_m": 3.515556454658508e-05,
+        "max_valid_hold_s": 0.0,
+        "last": {
+          "sim_time": 41.24,
+          "state": "FAIL",
+          "initial_root_z": 0.01508709043264389,
+          "object_root": [
+            0.5498185753822327,
+            0.003382717026397586,
+            0.015116863884031773
+          ],
+          "rise_m": 2.9773451387882233e-05,
+          "bottom_m": -0.0017853591170281687,
+          "grip_point_in_wrist": [
+            0.252446389030975,
+            0.00025392152122467903,
+            0.0078878751586448
+          ],
+          "in_jaws": false,
+          "jaw_forces": [
+            40.39633227981007,
+            0.0
+          ],
+          "dual_contact": false,
+          "tilt_deg": 0.7404568789734151,
+          "drift_m": 0.015583442524075508,
+          "illegal_contact": false,
+          "valid_hold_s": 0.0,
+          "filtered_jaw_forces": [
+            0.0,
+            0.0
+          ],
+          "net_jaw_forces": [
+            40.42904281616211,
+            0.0
+          ],
+          "native_contacts": [
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_11_banana",
+              "impulse_Ns": 0.2020273375177173,
+              "positions": [
+                [
+                  0.5880417823791504,
+                  0.01832634024322033,
+                  0.024350985884666443
+                ],
+                [
+                  0.5109584927558899,
+                  0.00317308958619833,
+                  0.032419729977846146
+                ],
+                [
+                  0.5879903435707092,
+                  0.009631156921386719,
+                  0.02942090481519699
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_11_banana",
+              "impulse_Ns": 0.2017411928626489,
+              "positions": [
+                [
+                  0.5880417823791504,
+                  0.018326330929994583,
+                  0.024350982159376144
+                ],
+                [
+                  0.5109584331512451,
+                  0.003173072123900056,
+                  0.03241971507668495
+                ],
+                [
+                  0.5879902839660645,
+                  0.009631142020225525,
+                  0.029420893639326096
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_11_banana",
+              "impulse_Ns": 0.20201290849416753,
+              "positions": [
+                [
+                  0.5880416631698608,
+                  0.01832633651793003,
+                  0.024350976571440697
+                ],
+                [
+                  0.5109583139419556,
+                  0.003173115663230419,
+                  0.03241972625255585
+                ],
+                [
+                  0.5879901647567749,
+                  0.009631157852709293,
+                  0.029420901089906693
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_11_banana",
+              "impulse_Ns": 0.2021452067216677,
+              "positions": [
+                [
+                  0.5880416035652161,
+                  0.01832633465528488,
+                  0.024350982159376144
+                ],
+                [
+                  0.5109583139419556,
+                  0.0031730879563838243,
+                  0.03241972252726555
+                ],
+                [
+                  0.5879901647567749,
+                  0.00963115319609642,
+                  0.02942090481519699
+                ]
+              ]
+            }
+          ],
+          "native_contact_errors": []
+        },
+        "trial": 1,
+        "mode": "grasp",
+        "state": "FAIL",
+        "reason": "approach_timeout",
+        "history": [
+          {
+            "time": 6.01999999999996,
+            "from": "SETTLE",
+            "to": "SQUAT",
+            "reason": ""
+          },
+          {
+            "time": 16.039999999999747,
+            "from": "SQUAT",
+            "to": "OPEN",
+            "reason": ""
+          },
+          {
+            "time": 21.199999999999637,
+            "from": "OPEN",
+            "to": "PREGRASP",
+            "reason": ""
+          },
+          {
+            "time": 27.21999999999951,
+            "from": "PREGRASP",
+            "to": "APPROACH",
+            "reason": ""
+          },
+          {
+            "time": 41.24000000000085,
+            "from": "APPROACH",
+            "to": "FAIL",
+            "reason": "approach_timeout"
+          }
+        ],
+        "sim_time": 41.24,
+        "wall_time": 102.11087832879275,
+        "frames": 413,
+        "max_frame_difference": 9.258344184027777,
+        "config_sha256": "85c8e842bf18437ba589cfd2c026db8f7bfac36a8494c123fb8c0d9d2a9a36ec",
+        "last_ik": {
+          "success": true,
+          "reason": "finite_tracking_step",
+          "foot_error_m": 2.9017057421581373e-08,
+          "body_position_error_m": 0.00011150562191362597,
+          "body_angle_error_deg": 0.0011127854506273406,
+          "ee_position_error_m": 2.7901602353522424e-05,
+          "ee_angle_error_deg": 0.01380019782013314,
+          "planned_base": [
+            -0.035277518276094995,
+            5.7797677663759643e-05,
+            0.33999850356657874,
+            0.9999898153873179,
+            6.9430710662870275e-09,
+            5.389606571781627e-07,
+            -0.004513216297402716
+          ],
+          "actual_foot_anchor_error_m": 0.0006001609152331103,
+          "actual_position_error": 0.015372205919547972,
+          "actual_orientation_error_deg": 0.5717479777163447,
+          "body_goal": [
+            -0.03516603261232376,
+            5.631428211927414e-05,
+            0.3400000035762787
+          ],
+          "contact_force_targets": [
+            [
+              1.5922771188117781,
+              0.08649266238003699,
+              200.8146408905603
+            ],
+            [
+              1.5792000177744527,
+              0.08578231286137088,
+              199.16538441524287
+            ],
+            [
+              1.342439259228063,
+              0.07292144328542927,
+              169.30561557051442
+            ],
+            [
+              1.337009419927897,
+              0.07262649383735985,
+              168.62081565957305
+            ]
+          ],
+          "model_mass": 75.68647079999998,
+          "support_com": [
+            -0.020163224934617852,
+            0.00220193595180521,
+            0.32742729741950105
+          ],
+          "support_torque": [
+            31.78827043135844,
+            0.9135122450263906,
+            62.310543657238064,
+            -32.276448705612154,
+            -3.011382608738439,
+            59.568195021722836,
+            28.31589185822161,
+            -2.054784227519001,
+            50.99845542713521,
+            -29.87957206274337,
+            -1.7584369753781564,
+            50.451570948163436
+          ],
+          "joint_gravity_ff": [
+            -4.528967380523682,
+            3.134441614151001,
+            -0.8490234613418579,
+            4.511262893676758,
+            3.253192901611328,
+            -0.8208945989608765,
+            -4.536434173583984,
+            3.2364606857299805,
+            -0.825952410697937,
+            4.593570232391357,
+            3.199030637741089,
+            -0.8206347227096558
+          ],
+          "joint_total_ff": [
+            27.25930305083476,
+            4.047953859177392,
+            61.461520195896206,
+            -27.765185811935396,
+            0.24181029287288913,
+            58.74730042276196,
+            23.779457684637627,
+            1.1816764582109793,
+            50.172503016437275,
+            -25.286001830352014,
+            1.4405936623629325,
+            49.63093622545378
+          ]
+        },
+        "isaac_urdf_wrist_fk_error_m": 5.144369931861461e-07,
+        "usd_base_translation": [
+          -0.038943830877542496,
+          -0.0001421002671122551,
+          0.342223584651947
+        ],
+        "physx_base_translation": [
+          -0.038943830877542496,
+          -0.0001421002671122551,
+          0.342223584651947
+        ],
+        "usd_physx_translation_error_m": 0.0
+      },
+      "path_audit": {
+        "run": "/root/Desktop/TaskB/runs/mink_multiclass/nine_01/banana_yaw_p00/trial_01",
+        "sampled_frames": 416,
+        "obb_pair_tests": 91936,
+        "minimum_arm_ground_clearance_m": 0.032254899286634,
+        "conservative_overlap_count": 0,
+        "events": [],
+        "clear": true,
+        "method": "Local URDF collision AABBs transformed as OBBs, 15-axis SAT against body and all leg links, camera/trace checked separately. Fixed mount excluded."
+      }
+    },
+    {
+      "case": {
+        "case_id": "mustard_yaw_m45",
+        "object": "mustard",
+        "yaw_deg": -45,
+        "config": "experiments/mink_multiclass/configs/mustard_yaw_m45.json"
+      },
+      "configuration": {
+        "title": "三物体三朝向已知目标抓取诊断",
+        "object_asset": "006_mustard_bottle.usd",
+        "object_xy": [
+          0.55,
+          0.0
+        ],
+        "object_quat_wxyz": [
+          0.6532814824381883,
+          -0.6532814824381883,
+          0.2705980500730985,
+          -0.27059805007309856
+        ],
+        "tcp_offset_link06": [
+          0.21,
+          0.0,
+          0.02
+        ],
+        "grasp_world": [
+          0.55,
+          3.885780586188048e-18,
+          0.167
+        ],
+        "grasp_rpy": [
+          2.356194490192345,
+          1.5707963267948961,
+          0.0
+        ],
+        "pregrasp_up": 0.12,
+        "lift_up": 0.15,
+        "arm_speed_rad_s": 0.4,
+        "gripper_open": -1.3,
+        "stage_limits_s": {
+          "SETTLE": 6.0,
+          "OPEN": 9.0,
+          "PREGRASP": 18.0,
+          "APPROACH": 14.0,
+          "CLOSE": 10.0,
+          "LIFT": 15.0,
+          "HOLD": 4.0,
+          "SQUAT": 14.0
+        },
+        "thresholds": {
+          "ik_position_m": 0.005,
+          "ik_orientation_deg": 5.0,
+          "rise_m": 0.1,
+          "bottom_m": 0.02,
+          "hold_s": 3.0,
+          "tilt_deg": 15.0,
+          "drift_m": 0.1
+        },
+        "max_sim_s": 100.0,
+        "max_wall_s": 300.0,
+        "notes": "Exactly one physical attempt per case; no navigation, no distance sweep, no retries. Geometry-defined known grasp point. Thresholds and dynamics unchanged.",
+        "grasp_local_point": [
+          0.0,
+          -0.07,
+          0.0
+        ],
+        "history_initialization": "100 repeated initial measured standing observations, required by supplied deployment manifest",
+        "body_height": 0.42,
+        "lift_body_height": 0.48,
+        "body_pitch_rad": 0.0,
+        "squat_duration_s": 8.0,
+        "handover_s": 2.0,
+        "case_id": "mustard_yaw_m45",
+        "object_class": "mustard",
+        "object_yaw_deg": -45,
+        "distance_tested": false,
+        "root_distance_m": 0.55,
+        "repeat_count": 1
+      },
+      "result": {
+        "success": true,
+        "max_rise_m": 0.14784550666809082,
+        "max_valid_hold_s": 5.899999999999962,
+        "last": {
+          "sim_time": 51.28,
+          "state": "DONE",
+          "initial_root_z": 0.09522461891174316,
+          "object_root": [
+            0.5477789044380188,
+            -0.005811917595565319,
+            0.2422734498977661
+          ],
+          "rise_m": 0.14704883098602295,
+          "bottom_m": 0.14591929790148728,
+          "grip_point_in_wrist": [
+            0.21248745581843942,
+            4.471578607197102e-05,
+            0.02295320740431818
+          ],
+          "in_jaws": true,
+          "jaw_forces": [
+            25.582336293438534,
+            27.816049263409415
+          ],
+          "dual_contact": true,
+          "tilt_deg": 0.05233915627441309,
+          "drift_m": 0.004381293896585703,
+          "illegal_contact": false,
+          "valid_hold_s": 5.899999999999962,
+          "filtered_jaw_forces": [
+            0.0,
+            0.0
+          ],
+          "net_jaw_forces": [
+            25.517961502075195,
+            27.80959701538086
+          ],
+          "native_contacts": [
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.12843104316701803,
+              "positions": [
+                [
+                  0.5755757093429565,
+                  0.007838618941605091,
+                  0.29148754477500916
+                ],
+                [
+                  0.5635693669319153,
+                  0.020634911954402924,
+                  0.2918764352798462
+                ],
+                [
+                  0.5755746364593506,
+                  0.007839036174118519,
+                  0.2914700508117676
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.13906956037972418,
+              "positions": [
+                [
+                  0.5300136804580688,
+                  -0.010576391592621803,
+                  0.3169766664505005
+                ],
+                [
+                  0.5420644879341125,
+                  -0.008867140859365463,
+                  0.3340016007423401
+                ],
+                [
+                  0.5435789823532104,
+                  -0.010122562758624554,
+                  0.33390548825263977
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.12798646306380992,
+              "positions": [
+                [
+                  0.575583279132843,
+                  0.007836899720132351,
+                  0.2914803922176361
+                ],
+                [
+                  0.56357741355896,
+                  0.02063370868563652,
+                  0.291869580745697
+                ],
+                [
+                  0.5755822062492371,
+                  0.007837324403226376,
+                  0.29146286845207214
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.1391191674815549,
+              "positions": [
+                [
+                  0.5300205945968628,
+                  -0.010576637461781502,
+                  0.3169693946838379
+                ],
+                [
+                  0.542071521282196,
+                  -0.008868238888680935,
+                  0.3339942991733551
+                ],
+                [
+                  0.543586015701294,
+                  -0.010123725049197674,
+                  0.3338981568813324
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.1276394114852998,
+              "positions": [
+                [
+                  0.5756030678749084,
+                  0.00783675629645586,
+                  0.2914566695690155
+                ],
+                [
+                  0.5635974407196045,
+                  0.020633753389120102,
+                  0.2918452024459839
+                ],
+                [
+                  0.5756020545959473,
+                  0.007837177254259586,
+                  0.29143914580345154
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.13908427654865477,
+              "positions": [
+                [
+                  0.5300387144088745,
+                  -0.01057611033320427,
+                  0.31694307923316956
+                ],
+                [
+                  0.5420887470245361,
+                  -0.008867939934134483,
+                  0.3339686691761017
+                ],
+                [
+                  0.5436031818389893,
+                  -0.010123449377715588,
+                  0.33387261629104614
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.127589808152643,
+              "positions": [
+                [
+                  0.5756375193595886,
+                  0.00783722847700119,
+                  0.29140907526016235
+                ],
+                [
+                  0.5636316537857056,
+                  0.02063407376408577,
+                  0.2917957901954651
+                ],
+                [
+                  0.5756365060806274,
+                  0.007837651297450066,
+                  0.2913915514945984
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.1390479808582544,
+              "positions": [
+                [
+                  0.5300704836845398,
+                  -0.01057540625333786,
+                  0.3168908953666687
+                ],
+                [
+                  0.5421185493469238,
+                  -0.008866489864885807,
+                  0.3339177966117859
+                ],
+                [
+                  0.543632984161377,
+                  -0.01012197881937027,
+                  0.33382195234298706
+                ]
+              ]
+            }
+          ],
+          "native_contact_errors": []
+        },
+        "trial": 1,
+        "mode": "grasp",
+        "state": "DONE",
+        "reason": "",
+        "history": [
+          {
+            "time": 6.01999999999996,
+            "from": "SETTLE",
+            "to": "SQUAT",
+            "reason": ""
+          },
+          {
+            "time": 16.039999999999747,
+            "from": "SQUAT",
+            "to": "OPEN",
+            "reason": ""
+          },
+          {
+            "time": 21.199999999999637,
+            "from": "OPEN",
+            "to": "PREGRASP",
+            "reason": ""
+          },
+          {
+            "time": 27.21999999999951,
+            "from": "PREGRASP",
+            "to": "APPROACH",
+            "reason": ""
+          },
+          {
+            "time": 33.2399999999996,
+            "from": "APPROACH",
+            "to": "CLOSE",
+            "reason": ""
+          },
+          {
+            "time": 41.26000000000085,
+            "from": "CLOSE",
+            "to": "LIFT",
+            "reason": ""
+          },
+          {
+            "time": 47.28000000000179,
+            "from": "LIFT",
+            "to": "HOLD",
+            "reason": ""
+          },
+          {
+            "time": 51.28000000000242,
+            "from": "HOLD",
+            "to": "DONE",
+            "reason": ""
+          }
+        ],
+        "sim_time": 51.28,
+        "wall_time": 134.86287271697074,
+        "frames": 513,
+        "max_frame_difference": 9.305390625,
+        "config_sha256": "13fb227a080cba492c20db8069a6ad9e807ec7c858602af50f7c8954778ffa44",
+        "last_ik": {
+          "success": true,
+          "reason": "finite_tracking_step",
+          "foot_error_m": 3.7068989050170316e-08,
+          "body_position_error_m": 0.0001246188146429337,
+          "body_angle_error_deg": 0.0013236348622932225,
+          "ee_position_error_m": 3.336543410897389e-05,
+          "ee_angle_error_deg": 0.015221647589134097,
+          "planned_base": [
+            -0.030681299985497203,
+            -9.334503342922674e-06,
+            0.4799966507394731,
+            0.9999898235936937,
+            -8.21198965397759e-08,
+            9.107408029603721e-07,
+            -0.0045113975902265945
+          ],
+          "actual_foot_anchor_error_m": 0.003954963285006072,
+          "actual_position_error": 0.0027130438744935774,
+          "actual_orientation_error_deg": 0.8322922385014944,
+          "body_goal": [
+            -0.03055715188384056,
+            9.587965905666351e-07,
+            0.47999998927116394
+          ],
+          "contact_force_targets": [
+            [
+              -1.1939733649953939,
+              0.046874090151668796,
+              174.4771204605958
+            ],
+            [
+              -1.1920277228437068,
+              0.04679770636598743,
+              174.19280085177903
+            ],
+            [
+              -0.964544339815489,
+              0.03786695722476817,
+              140.9503125458935
+            ],
+            [
+              -0.9703790386300403,
+              0.038096021127079056,
+              141.80294584389145
+            ]
+          ],
+          "model_mass": 75.68647079999998,
+          "support_com": [
+            -0.007181879484871308,
+            0.003069252160722452,
+            0.4622458890467838
+          ],
+          "support_torque": [
+            27.897158291018883,
+            -0.62513897307312,
+            46.170280879365365,
+            -28.436542735533035,
+            -4.169707746448367,
+            44.10351335073686,
+            23.839600906361362,
+            -2.890251724939225,
+            35.74458249251619,
+            -25.409402364408958,
+            -2.676379596753281,
+            35.75352550016412
+          ],
+          "joint_gravity_ff": [
+            -4.568068027496338,
+            2.784630537033081,
+            -0.7417196035385132,
+            4.5653486251831055,
+            2.9175221920013428,
+            -0.7127180695533752,
+            -4.604232311248779,
+            2.8807191848754883,
+            -0.713641881942749,
+            4.675942897796631,
+            2.8475778102874756,
+            -0.7097880840301514
+          ],
+          "joint_total_ff": [
+            23.329090263522545,
+            2.159491563959961,
+            45.42856127582685,
+            -23.87119411034993,
+            -1.2521855544470242,
+            43.390795281183486,
+            19.235368595112583,
+            -0.009532540063736938,
+            35.03094061057344,
+            -20.733459466612327,
+            0.17119821353419473,
+            35.04373741613397
+          ]
+        },
+        "isaac_urdf_wrist_fk_error_m": 4.516789595961818e-07,
+        "usd_base_translation": [
+          -0.027740616351366043,
+          -0.00011251261457800865,
+          0.47862860560417175
+        ],
+        "physx_base_translation": [
+          -0.027740616351366043,
+          -0.00011251261457800865,
+          0.47862860560417175
+        ],
+        "usd_physx_translation_error_m": 0.0
+      },
+      "path_audit": {
+        "run": "/root/Desktop/TaskB/runs/mink_multiclass/nine_01/mustard_yaw_m45/trial_01",
+        "sampled_frames": 519,
+        "obb_pair_tests": 114699,
+        "minimum_arm_ground_clearance_m": 0.13781075108757862,
+        "conservative_overlap_count": 0,
+        "events": [],
+        "clear": true,
+        "method": "Local URDF collision AABBs transformed as OBBs, 15-axis SAT against body and all leg links, camera/trace checked separately. Fixed mount excluded."
+      }
+    },
+    {
+      "case": {
+        "case_id": "sugar_yaw_m45",
+        "object": "sugar",
+        "yaw_deg": -45,
+        "config": "experiments/mink_multiclass/configs/sugar_yaw_m45.json"
+      },
+      "configuration": {
+        "title": "三物体三朝向已知目标抓取诊断",
+        "object_asset": "004_sugar_box.usd",
+        "object_xy": [
+          0.55,
+          0.0
+        ],
+        "object_quat_wxyz": [
+          0.6532814824381883,
+          -0.6532814824381883,
+          0.2705980500730985,
+          -0.27059805007309856
+        ],
+        "tcp_offset_link06": [
+          0.21,
+          0.0,
+          0.012
+        ],
+        "grasp_world": [
+          0.55,
+          2.7755575615628915e-18,
+          0.1396
+        ],
+        "grasp_rpy": [
+          2.356194490192345,
+          1.5707963267948961,
+          0.0
+        ],
+        "pregrasp_up": 0.12,
+        "lift_up": 0.15,
+        "arm_speed_rad_s": 0.4,
+        "gripper_open": -1.3,
+        "stage_limits_s": {
+          "SETTLE": 6.0,
+          "OPEN": 9.0,
+          "PREGRASP": 18.0,
+          "APPROACH": 14.0,
+          "CLOSE": 10.0,
+          "LIFT": 15.0,
+          "HOLD": 4.0,
+          "SQUAT": 14.0
+        },
+        "thresholds": {
+          "ik_position_m": 0.005,
+          "ik_orientation_deg": 5.0,
+          "rise_m": 0.1,
+          "bottom_m": 0.02,
+          "hold_s": 3.0,
+          "tilt_deg": 15.0,
+          "drift_m": 0.1
+        },
+        "max_sim_s": 100.0,
+        "max_wall_s": 300.0,
+        "notes": "Exactly one physical attempt per case; no navigation, no distance sweep, no retries. Geometry-defined known grasp point. Thresholds and dynamics unchanged.",
+        "grasp_local_point": [
+          0.0,
+          -0.05,
+          0.0
+        ],
+        "history_initialization": "100 repeated initial measured standing observations, required by supplied deployment manifest",
+        "body_height": 0.42,
+        "lift_body_height": 0.48,
+        "body_pitch_rad": 0.0,
+        "squat_duration_s": 8.0,
+        "handover_s": 2.0,
+        "case_id": "sugar_yaw_m45",
+        "object_class": "sugar",
+        "object_yaw_deg": -45,
+        "distance_tested": false,
+        "root_distance_m": 0.55,
+        "repeat_count": 1
+      },
+      "result": {
+        "success": true,
+        "max_rise_m": 0.1462450996041298,
+        "max_valid_hold_s": 5.819999999999964,
+        "last": {
+          "sim_time": 51.28,
+          "state": "DONE",
+          "initial_root_z": 0.08735405653715134,
+          "object_root": [
+            0.5447831153869629,
+            -0.0028529649134725332,
+            0.23280389606952667
+          ],
+          "rise_m": 0.14544983953237534,
+          "bottom_m": 0.1443296650430793,
+          "grip_point_in_wrist": [
+            0.2145552015234072,
+            -0.0045266366546550425,
+            0.01503783740599102
+          ],
+          "in_jaws": true,
+          "jaw_forces": [
+            34.11917838757283,
+            37.994278498336094
+          ],
+          "dual_contact": true,
+          "tilt_deg": 0.048456642643301504,
+          "drift_m": 0.004381257575005293,
+          "illegal_contact": false,
+          "valid_hold_s": 5.819999999999964,
+          "filtered_jaw_forces": [
+            0.0,
+            0.0
+          ],
+          "net_jaw_forces": [
+            34.04213333129883,
+            37.97370147705078
+          ],
+          "native_contacts": [
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.17123371903693607,
+              "positions": [
+                [
+                  0.5793178677558899,
+                  -0.006391380913555622,
+                  0.29839617013931274
+                ],
+                [
+                  0.5458421111106873,
+                  0.027798248454928398,
+                  0.29839956760406494
+                ],
+                [
+                  0.5738187432289124,
+                  -0.001278608338907361,
+                  0.26436227560043335
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.19005571067091565,
+              "positions": [
+                [
+                  0.5063067078590393,
+                  0.012655346654355526,
+                  0.3192667067050934
+                ],
+                [
+                  0.558931827545166,
+                  -0.04032116383314133,
+                  0.3212849497795105
+                ],
+                [
+                  0.506295382976532,
+                  0.012625491246581078,
+                  0.3191068768501282
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.17062814492166734,
+              "positions": [
+                [
+                  0.5793240666389465,
+                  -0.006391698494553566,
+                  0.298389196395874
+                ],
+                [
+                  0.5458482503890991,
+                  0.02779790386557579,
+                  0.298391729593277
+                ],
+                [
+                  0.5738256573677063,
+                  -0.0012791038025170565,
+                  0.2643551528453827
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.19000430049735362,
+              "positions": [
+                [
+                  0.5063124895095825,
+                  0.012655074708163738,
+                  0.3192581236362457
+                ],
+                [
+                  0.5589376091957092,
+                  -0.04032137989997864,
+                  0.3212777376174927
+                ],
+                [
+                  0.5063011646270752,
+                  0.012625220231711864,
+                  0.3190982937812805
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.17031103741085332,
+              "positions": [
+                [
+                  0.5793425440788269,
+                  -0.006392249837517738,
+                  0.2983652353286743
+                ],
+                [
+                  0.5458669066429138,
+                  0.027797508984804153,
+                  0.2983657419681549
+                ],
+                [
+                  0.5738458037376404,
+                  -0.0012800490949302912,
+                  0.2643308639526367
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.1899570494363756,
+              "positions": [
+                [
+                  0.5063300132751465,
+                  0.012655120342969894,
+                  0.31923040747642517
+                ],
+                [
+                  0.5589548349380493,
+                  -0.040321558713912964,
+                  0.3212532103061676
+                ],
+                [
+                  0.5063186883926392,
+                  0.012625262141227722,
+                  0.31907057762145996
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.1702106663819999,
+              "positions": [
+                [
+                  0.5793756246566772,
+                  -0.006392863113433123,
+                  0.29831716418266296
+                ],
+                [
+                  0.5459002256393433,
+                  0.027797138318419456,
+                  0.2983144223690033
+                ],
+                [
+                  0.5738818049430847,
+                  -0.0012810253538191319,
+                  0.2642822861671448
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.189868509362077,
+              "positions": [
+                [
+                  0.5063614845275879,
+                  0.012655278667807579,
+                  0.31917595863342285
+                ],
+                [
+                  0.558985710144043,
+                  -0.040321752429008484,
+                  0.3212038278579712
+                ],
+                [
+                  0.5063501596450806,
+                  0.012625420466065407,
+                  0.31901609897613525
+                ]
+              ]
+            }
+          ],
+          "native_contact_errors": []
+        },
+        "trial": 1,
+        "mode": "grasp",
+        "state": "DONE",
+        "reason": "",
+        "history": [
+          {
+            "time": 6.01999999999996,
+            "from": "SETTLE",
+            "to": "SQUAT",
+            "reason": ""
+          },
+          {
+            "time": 16.039999999999747,
+            "from": "SQUAT",
+            "to": "OPEN",
+            "reason": ""
+          },
+          {
+            "time": 21.199999999999637,
+            "from": "OPEN",
+            "to": "PREGRASP",
+            "reason": ""
+          },
+          {
+            "time": 27.21999999999951,
+            "from": "PREGRASP",
+            "to": "APPROACH",
+            "reason": ""
+          },
+          {
+            "time": 33.2399999999996,
+            "from": "APPROACH",
+            "to": "CLOSE",
+            "reason": ""
+          },
+          {
+            "time": 41.26000000000085,
+            "from": "CLOSE",
+            "to": "LIFT",
+            "reason": ""
+          },
+          {
+            "time": 47.28000000000179,
+            "from": "LIFT",
+            "to": "HOLD",
+            "reason": ""
+          },
+          {
+            "time": 51.28000000000242,
+            "from": "HOLD",
+            "to": "DONE",
+            "reason": ""
+          }
+        ],
+        "sim_time": 51.28,
+        "wall_time": 137.8984675318934,
+        "frames": 513,
+        "max_frame_difference": 9.281520182291667,
+        "config_sha256": "668dc99661a29a86afcfd0e6aba744c3a34a3e6f631de9fc296546338a8f6152",
+        "last_ik": {
+          "success": true,
+          "reason": "finite_tracking_step",
+          "foot_error_m": 3.652593319583799e-08,
+          "body_position_error_m": 0.00012353554234924502,
+          "body_angle_error_deg": 0.0012884877846632426,
+          "ee_position_error_m": 3.2437980294094985e-05,
+          "ee_angle_error_deg": 0.014612382241528592,
+          "planned_base": [
+            -0.03062470239761083,
+            -2.217478236422565e-05,
+            0.4799967339229756,
+            0.9999897684503882,
+            -5.7230156111184966e-08,
+            8.695885292713017e-07,
+            -0.00452360406970059
+          ],
+          "actual_foot_anchor_error_m": 0.003954701757896326,
+          "actual_position_error": 0.0027552156177506944,
+          "actual_orientation_error_deg": 0.8024306002990971,
+          "body_goal": [
+            -0.030501412227749825,
+            -1.5106052160263062e-05,
+            0.47999998927116394
+          ],
+          "contact_force_targets": [
+            [
+              -1.1931089568181374,
+              0.04476680079072236,
+              174.61790971493795
+            ],
+            [
+              -1.1890772050744471,
+              0.04461552489415314,
+              174.027841173461
+            ],
+            [
+              -0.9642372308559835,
+              0.03617927414093433,
+              141.12130225760814
+            ],
+            [
+              -0.9678558150587195,
+              0.036315047522923145,
+              141.65090150837094
+            ]
+          ],
+          "model_mass": 75.68647079999998,
+          "support_com": [
+            -0.007195145118864576,
+            0.0028353048394384604,
+            0.46113786087080044
+          ],
+          "support_torque": [
+            27.918160586602568,
+            -0.6329673452397927,
+            46.20395639203487,
+            -28.411061365138632,
+            -4.174677468213704,
+            44.05627433832482,
+            23.86912142494045,
+            -2.8997340939075733,
+            35.784597385142,
+            -25.382420754034477,
+            -2.6808015431476084,
+            35.71116931538666
+          ],
+          "joint_gravity_ff": [
+            -4.567951202392578,
+            2.784971237182617,
+            -0.7416625618934631,
+            4.565402030944824,
+            2.917860507965088,
+            -0.7126306891441345,
+            -4.604190826416016,
+            2.8810322284698486,
+            -0.7135761380195618,
+            4.675938606262207,
+            2.847947597503662,
+            -0.7097083330154419
+          ],
+          "joint_total_ff": [
+            23.35020938420999,
+            2.1520038919428246,
+            45.462293830141405,
+            -23.845659334193808,
+            -1.2568169602486163,
+            43.343643649180684,
+            19.264930598524433,
+            -0.018701865437724674,
+            35.07102124712244,
+            -20.70648214777227,
+            0.16714605435605367,
+            35.00146098237122
+          ]
+        },
+        "isaac_urdf_wrist_fk_error_m": 5.353609217995838e-07,
+        "usd_base_translation": [
+          -0.027684511616826057,
+          -0.00012165727093815804,
+          0.478630006313324
+        ],
+        "physx_base_translation": [
+          -0.027684511616826057,
+          -0.00012165727093815804,
+          0.478630006313324
+        ],
+        "usd_physx_translation_error_m": 0.0
+      },
+      "path_audit": {
+        "run": "/root/Desktop/TaskB/runs/mink_multiclass/nine_01/sugar_yaw_m45/trial_01",
+        "sampled_frames": 519,
+        "obb_pair_tests": 114699,
+        "minimum_arm_ground_clearance_m": 0.11045335734014688,
+        "conservative_overlap_count": 0,
+        "events": [],
+        "clear": true,
+        "method": "Local URDF collision AABBs transformed as OBBs, 15-axis SAT against body and all leg links, camera/trace checked separately. Fixed mount excluded."
+      }
+    },
+    {
+      "case": {
+        "case_id": "banana_yaw_m45",
+        "object": "banana",
+        "yaw_deg": -45,
+        "config": "experiments/mink_multiclass/configs/banana_yaw_m45.json"
+      },
+      "configuration": {
+        "title": "三物体三朝向已知目标抓取诊断",
+        "object_asset": "011_banana.usd",
+        "object_xy": [
+          0.55,
+          0.0
+        ],
+        "object_quat_wxyz": [
+          0.6532814824381883,
+          -0.6532814824381883,
+          0.2705980500730985,
+          -0.27059805007309856
+        ],
+        "tcp_offset_link06": [
+          0.235,
+          0.0,
+          0.012
+        ],
+        "grasp_world": [
+          0.5373074332777015,
+          -0.012692566722298529,
+          0.021
+        ],
+        "grasp_rpy": [
+          2.356194490192345,
+          1.5707963267948961,
+          0.0
+        ],
+        "pregrasp_up": 0.12,
+        "lift_up": 0.15,
+        "arm_speed_rad_s": 0.4,
+        "gripper_open": -1.3,
+        "stage_limits_s": {
+          "SETTLE": 6.0,
+          "OPEN": 9.0,
+          "PREGRASP": 18.0,
+          "APPROACH": 14.0,
+          "CLOSE": 10.0,
+          "LIFT": 15.0,
+          "HOLD": 4.0,
+          "SQUAT": 14.0
+        },
+        "thresholds": {
+          "ik_position_m": 0.005,
+          "ik_orientation_deg": 5.0,
+          "rise_m": 0.1,
+          "bottom_m": 0.02,
+          "hold_s": 3.0,
+          "tilt_deg": 15.0,
+          "drift_m": 0.1
+        },
+        "max_sim_s": 100.0,
+        "max_wall_s": 300.0,
+        "notes": "Exactly one physical attempt per case; no navigation, no distance sweep, no retries. Geometry-defined known grasp point. Thresholds and dynamics unchanged.",
+        "grasp_local_point": [
+          0.0,
+          0.0,
+          -0.01795
+        ],
+        "history_initialization": "100 repeated initial measured standing observations, required by supplied deployment manifest",
+        "body_height": 0.34,
+        "lift_body_height": 0.4,
+        "body_pitch_rad": 0.0,
+        "squat_duration_s": 8.0,
+        "handover_s": 2.0,
+        "case_id": "banana_yaw_m45",
+        "object_class": "banana",
+        "object_yaw_deg": -45,
+        "distance_tested": false,
+        "root_distance_m": 0.55,
+        "repeat_count": 1
+      },
+      "result": {
+        "success": false,
+        "max_rise_m": 8.022412657737732e-06,
+        "max_valid_hold_s": 0.0,
+        "last": {
+          "sim_time": 41.24,
+          "state": "FAIL",
+          "initial_root_z": 0.015087318606674671,
+          "object_root": [
+            0.5522884130477905,
+            0.0025336756370961666,
+            0.0150828268378973
+          ],
+          "rise_m": -4.491768777370453e-06,
+          "bottom_m": -0.0019296912666872286,
+          "grip_point_in_wrist": [
+            0.2507390494240946,
+            -0.002389689669399526,
+            0.010298809032535073
+          ],
+          "in_jaws": false,
+          "jaw_forces": [
+            31.560928480038484,
+            0.0
+          ],
+          "dual_contact": false,
+          "tilt_deg": 0.6431576742597719,
+          "drift_m": 0.014943364076316357,
+          "illegal_contact": false,
+          "valid_hold_s": 0.0,
+          "filtered_jaw_forces": [
+            0.0,
+            0.0
+          ],
+          "net_jaw_forces": [
+            31.543664932250977,
+            0.0
+          ],
+          "native_contacts": [
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_11_banana",
+              "impulse_Ns": 0.1578174298393248,
+              "positions": [
+                [
+                  0.5278043150901794,
+                  0.029550805687904358,
+                  0.03134193643927574
+                ],
+                [
+                  0.5921977162361145,
+                  -0.015059385448694229,
+                  0.023734498769044876
+                ],
+                [
+                  0.5857041478157043,
+                  -0.021479401737451553,
+                  0.02910827286541462
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_11_banana",
+              "impulse_Ns": 0.1578986760710932,
+              "positions": [
+                [
+                  0.5278043746948242,
+                  0.0295508224517107,
+                  0.031341925263404846
+                ],
+                [
+                  0.5921977758407593,
+                  -0.015059377998113632,
+                  0.02373443730175495
+                ],
+                [
+                  0.5857042074203491,
+                  -0.02147938497364521,
+                  0.029108218848705292
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_11_banana",
+              "impulse_Ns": 0.15778413339313085,
+              "positions": [
+                [
+                  0.5278043746948242,
+                  0.0295508224517107,
+                  0.031341951340436935
+                ],
+                [
+                  0.5921977758407593,
+                  -0.015059387311339378,
+                  0.023734476417303085
+                ],
+                [
+                  0.5857042074203491,
+                  -0.021479398012161255,
+                  0.029108259826898575
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_11_banana",
+              "impulse_Ns": 0.15771833029722088,
+              "positions": [
+                [
+                  0.5278043150901794,
+                  0.029550829902291298,
+                  0.03134194388985634
+                ],
+                [
+                  0.5921977162361145,
+                  -0.01505938172340393,
+                  0.023734427988529205
+                ],
+                [
+                  0.5857041478157043,
+                  -0.02147938869893551,
+                  0.029108218848705292
+                ]
+              ]
+            }
+          ],
+          "native_contact_errors": []
+        },
+        "trial": 1,
+        "mode": "grasp",
+        "state": "FAIL",
+        "reason": "approach_timeout",
+        "history": [
+          {
+            "time": 6.01999999999996,
+            "from": "SETTLE",
+            "to": "SQUAT",
+            "reason": ""
+          },
+          {
+            "time": 16.039999999999747,
+            "from": "SQUAT",
+            "to": "OPEN",
+            "reason": ""
+          },
+          {
+            "time": 21.199999999999637,
+            "from": "OPEN",
+            "to": "PREGRASP",
+            "reason": ""
+          },
+          {
+            "time": 27.21999999999951,
+            "from": "PREGRASP",
+            "to": "APPROACH",
+            "reason": ""
+          },
+          {
+            "time": 41.24000000000085,
+            "from": "APPROACH",
+            "to": "FAIL",
+            "reason": "approach_timeout"
+          }
+        ],
+        "sim_time": 41.24,
+        "wall_time": 102.06063359603286,
+        "frames": 413,
+        "max_frame_difference": 9.246444227430555,
+        "config_sha256": "c945a969c6bf640cdc53c29a856d0ae156541bddbda770e726c9dbe14ff5a694",
+        "last_ik": {
+          "success": true,
+          "reason": "finite_tracking_step",
+          "foot_error_m": 2.8441118508855335e-08,
+          "body_position_error_m": 0.00010954913797869053,
+          "body_angle_error_deg": 0.0011047640751506843,
+          "ee_position_error_m": 2.7392085787349566e-05,
+          "ee_angle_error_deg": 0.013561311248162835,
+          "planned_base": [
+            -0.035275570092094824,
+            5.692415711110638e-05,
+            0.3399985263459645,
+            0.9999898150732843,
+            4.769358391774267e-10,
+            5.29507902588643e-07,
+            -0.004513285878157885
+          ],
+          "actual_foot_anchor_error_m": 0.0005253475458182631,
+          "actual_position_error": 0.013998487273328069,
+          "actual_orientation_error_deg": 0.9271906914196287,
+          "body_goal": [
+            -0.03516603261232376,
+            5.631428211927414e-05,
+            0.3400000035762787
+          ],
+          "contact_force_targets": [
+            [
+              1.3223529766928337,
+              0.17053752301039377,
+              201.7061722849648
+            ],
+            [
+              1.308560269155527,
+              0.1687587436523272,
+              199.60229057423274
+            ],
+            [
+              1.1097751560066627,
+              0.14312238074071498,
+              169.28044384555488
+            ],
+            [
+              1.1023465578513318,
+              0.1421643500551275,
+              168.14731666562267
+            ]
+          ],
+          "model_mass": 75.68647079999998,
+          "support_com": [
+            -0.01963306536502138,
+            0.0020534370839270103,
+            0.32705513222648724
+          ],
+          "support_torque": [
+            31.849156646763564,
+            0.7036939360059887,
+            62.54599058124022,
+            -32.4236371362536,
+            -3.2489027251556606,
+            59.5937538136512,
+            28.28000679988428,
+            -2.2190168117888636,
+            50.90159812192929,
+            -29.831799368118904,
+            -1.9397991996044541,
+            50.19084391125208
+          ],
+          "joint_gravity_ff": [
+            -4.527195453643799,
+            3.141180992126465,
+            -0.849030613899231,
+            4.511966228485107,
+            3.258519411087036,
+            -0.8202222585678101,
+            -4.536357879638672,
+            3.239650249481201,
+            -0.8251888751983643,
+            4.594132423400879,
+            3.202462673187256,
+            -0.8195174932479858
+          ],
+          "joint_total_ff": [
+            27.321961193119765,
+            3.8448749281324535,
+            61.69695996734099,
+            -27.911670907768496,
+            0.009616685931375546,
+            58.77353155508339,
+            23.743648920245608,
+            1.0206334376923376,
+            50.076409246730925,
+            -25.237666944718026,
+            1.2626634735828017,
+            49.371326418004095
+          ]
+        },
+        "isaac_urdf_wrist_fk_error_m": 4.212692743096845e-07,
+        "usd_base_translation": [
+          -0.03830019384622574,
+          -0.00034550344571471214,
+          0.341863751411438
+        ],
+        "physx_base_translation": [
+          -0.03830019384622574,
+          -0.00034550344571471214,
+          0.341863751411438
+        ],
+        "usd_physx_translation_error_m": 0.0
+      },
+      "path_audit": {
+        "run": "/root/Desktop/TaskB/runs/mink_multiclass/nine_01/banana_yaw_m45/trial_01",
+        "sampled_frames": 416,
+        "obb_pair_tests": 91936,
+        "minimum_arm_ground_clearance_m": 0.030936495661641472,
+        "conservative_overlap_count": 0,
+        "events": [],
+        "clear": true,
+        "method": "Local URDF collision AABBs transformed as OBBs, 15-axis SAT against body and all leg links, camera/trace checked separately. Fixed mount excluded."
+      }
+    },
+    {
+      "case": {
+        "case_id": "mustard_yaw_p45",
+        "object": "mustard",
+        "yaw_deg": 45,
+        "config": "experiments/mink_multiclass/configs/mustard_yaw_p45.json"
+      },
+      "configuration": {
+        "title": "三物体三朝向已知目标抓取诊断",
+        "object_asset": "006_mustard_bottle.usd",
+        "object_xy": [
+          0.55,
+          0.0
+        ],
+        "object_quat_wxyz": [
+          0.6532814824381883,
+          -0.6532814824381883,
+          -0.2705980500730985,
+          0.27059805007309856
+        ],
+        "tcp_offset_link06": [
+          0.21,
+          0.0,
+          0.02
+        ],
+        "grasp_world": [
+          0.55,
+          3.885780586188048e-18,
+          0.167
+        ],
+        "grasp_rpy": [
+          0.7853981633974481,
+          1.5707963267948966,
+          0.0
+        ],
+        "pregrasp_up": 0.12,
+        "lift_up": 0.15,
+        "arm_speed_rad_s": 0.4,
+        "gripper_open": -1.3,
+        "stage_limits_s": {
+          "SETTLE": 6.0,
+          "OPEN": 9.0,
+          "PREGRASP": 18.0,
+          "APPROACH": 14.0,
+          "CLOSE": 10.0,
+          "LIFT": 15.0,
+          "HOLD": 4.0,
+          "SQUAT": 14.0
+        },
+        "thresholds": {
+          "ik_position_m": 0.005,
+          "ik_orientation_deg": 5.0,
+          "rise_m": 0.1,
+          "bottom_m": 0.02,
+          "hold_s": 3.0,
+          "tilt_deg": 15.0,
+          "drift_m": 0.1
+        },
+        "max_sim_s": 100.0,
+        "max_wall_s": 300.0,
+        "notes": "Exactly one physical attempt per case; no navigation, no distance sweep, no retries. Geometry-defined known grasp point. Thresholds and dynamics unchanged.",
+        "grasp_local_point": [
+          0.0,
+          -0.07,
+          0.0
+        ],
+        "history_initialization": "100 repeated initial measured standing observations, required by supplied deployment manifest",
+        "body_height": 0.42,
+        "lift_body_height": 0.48,
+        "body_pitch_rad": 0.0,
+        "squat_duration_s": 8.0,
+        "handover_s": 2.0,
+        "case_id": "mustard_yaw_p45",
+        "object_class": "mustard",
+        "object_yaw_deg": 45,
+        "distance_tested": false,
+        "root_distance_m": 0.55,
+        "repeat_count": 1
+      },
+      "result": {
+        "success": true,
+        "max_rise_m": 0.14794006943702698,
+        "max_valid_hold_s": 5.899999999999962,
+        "last": {
+          "sim_time": 51.28,
+          "state": "DONE",
+          "initial_root_z": 0.09522376954555511,
+          "object_root": [
+            0.5563456416130066,
+            -0.0032473125029355288,
+            0.24236269295215607
+          ],
+          "rise_m": 0.14713892340660095,
+          "bottom_m": 0.14616197476894038,
+          "grip_point_in_wrist": [
+            0.21229346404255348,
+            0.00015536528824548594,
+            0.023184815737775293
+          ],
+          "in_jaws": true,
+          "jaw_forces": [
+            26.582549712946374,
+            29.086714758975727
+          ],
+          "dual_contact": true,
+          "tilt_deg": 0.05233915627441309,
+          "drift_m": 0.004359542392194271,
+          "illegal_contact": false,
+          "valid_hold_s": 5.899999999999962,
+          "filtered_jaw_forces": [
+            0.0,
+            0.0
+          ],
+          "net_jaw_forces": [
+            26.564054489135742,
+            29.05021858215332
+          ],
+          "native_contacts": [
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.13323836899804886,
+              "positions": [
+                [
+                  0.5424938797950745,
+                  0.02341892570257187,
+                  0.29225245118141174
+                ],
+                [
+                  0.5299416780471802,
+                  0.011154323816299438,
+                  0.2925192415714264
+                ],
+                [
+                  0.5424462556838989,
+                  0.02336038649082184,
+                  0.2908861041069031
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.11687277874454144,
+              "positions": [
+                [
+                  0.5620510578155518,
+                  -0.02226371131837368,
+                  0.3166515827178955
+                ],
+                [
+                  0.5602476000785828,
+                  -0.010451441630721092,
+                  0.33413439989089966
+                ],
+                [
+                  0.5614132881164551,
+                  -0.008983803912997246,
+                  0.3340613842010498
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.028613798478743298,
+              "positions": [
+                [
+                  0.5598254203796387,
+                  -0.007687195669859648,
+                  0.3382258713245392
+                ],
+                [
+                  0.5603166818618774,
+                  -0.010904569178819656,
+                  0.3334639370441437
+                ],
+                [
+                  0.5617600679397583,
+                  -0.009267178364098072,
+                  0.33315157890319824
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.13277723046937043,
+              "positions": [
+                [
+                  0.5425027012825012,
+                  0.023419251665472984,
+                  0.29224395751953125
+                ],
+                [
+                  0.5299500226974487,
+                  0.011155137792229652,
+                  0.2925110459327698
+                ],
+                [
+                  0.5424551367759705,
+                  0.023360678926110268,
+                  0.2908776104450226
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.116585607575307,
+              "positions": [
+                [
+                  0.56205815076828,
+                  -0.02226349152624607,
+                  0.3166443109512329
+                ],
+                [
+                  0.5602550506591797,
+                  -0.010450690984725952,
+                  0.3341268301010132
+                ],
+                [
+                  0.5614207983016968,
+                  -0.008983099833130836,
+                  0.33405378460884094
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.028932363378834827,
+              "positions": [
+                [
+                  0.5598329901695251,
+                  -0.007686321623623371,
+                  0.33821824193000793
+                ],
+                [
+                  0.5603241324424744,
+                  -0.010903838090598583,
+                  0.3334563672542572
+                ],
+                [
+                  0.561767578125,
+                  -0.009266511537134647,
+                  0.3331439793109894
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.132815119960548,
+              "positions": [
+                [
+                  0.5425225496292114,
+                  0.02341824769973755,
+                  0.2922171950340271
+                ],
+                [
+                  0.5299698710441589,
+                  0.011154120787978172,
+                  0.29248321056365967
+                ],
+                [
+                  0.5424751043319702,
+                  0.023359687998890877,
+                  0.29085084795951843
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.11661872829896158,
+              "positions": [
+                [
+                  0.5620760917663574,
+                  -0.0222646314650774,
+                  0.3166188597679138
+                ],
+                [
+                  0.5602715611457825,
+                  -0.010451951064169407,
+                  0.3341013193130493
+                ],
+                [
+                  0.5614373087882996,
+                  -0.008984358049929142,
+                  0.33402833342552185
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.02880207372865795,
+              "positions": [
+                [
+                  0.5598491430282593,
+                  -0.00768760871142149,
+                  0.3381926715373993
+                ],
+                [
+                  0.5603407025337219,
+                  -0.010905095376074314,
+                  0.33343082666397095
+                ],
+                [
+                  0.5617842078208923,
+                  -0.009267762303352356,
+                  0.3331185579299927
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.1328202748309602,
+              "positions": [
+                [
+                  0.5425564050674438,
+                  0.023418191820383072,
+                  0.29216551780700684
+                ],
+                [
+                  0.5300037860870361,
+                  0.01115395873785019,
+                  0.29242944717407227
+                ],
+                [
+                  0.5425090789794922,
+                  0.023359663784503937,
+                  0.29079917073249817
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.11699377550119462,
+              "positions": [
+                [
+                  0.5621067881584167,
+                  -0.022265160456299782,
+                  0.3165687918663025
+                ],
+                [
+                  0.5602997541427612,
+                  -0.010452930815517902,
+                  0.3340512812137604
+                ],
+                [
+                  0.5614655017852783,
+                  -0.008985326625406742,
+                  0.3339785039424896
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_06_mustard_bottle",
+              "impulse_Ns": 0.028315169473273862,
+              "positions": [
+                [
+                  0.5598767399787903,
+                  -0.007688693702220917,
+                  0.33814266324043274
+                ],
+                [
+                  0.5603689551353455,
+                  -0.010906056500971317,
+                  0.3333808183670044
+                ],
+                [
+                  0.5618125200271606,
+                  -0.009268706664443016,
+                  0.3330687880516052
+                ]
+              ]
+            }
+          ],
+          "native_contact_errors": []
+        },
+        "trial": 1,
+        "mode": "grasp",
+        "state": "DONE",
+        "reason": "",
+        "history": [
+          {
+            "time": 6.01999999999996,
+            "from": "SETTLE",
+            "to": "SQUAT",
+            "reason": ""
+          },
+          {
+            "time": 16.039999999999747,
+            "from": "SQUAT",
+            "to": "OPEN",
+            "reason": ""
+          },
+          {
+            "time": 21.199999999999637,
+            "from": "OPEN",
+            "to": "PREGRASP",
+            "reason": ""
+          },
+          {
+            "time": 27.21999999999951,
+            "from": "PREGRASP",
+            "to": "APPROACH",
+            "reason": ""
+          },
+          {
+            "time": 33.2399999999996,
+            "from": "APPROACH",
+            "to": "CLOSE",
+            "reason": ""
+          },
+          {
+            "time": 41.26000000000085,
+            "from": "CLOSE",
+            "to": "LIFT",
+            "reason": ""
+          },
+          {
+            "time": 47.28000000000179,
+            "from": "LIFT",
+            "to": "HOLD",
+            "reason": ""
+          },
+          {
+            "time": 51.28000000000242,
+            "from": "HOLD",
+            "to": "DONE",
+            "reason": ""
+          }
+        ],
+        "sim_time": 51.28,
+        "wall_time": 131.3498485861346,
+        "frames": 513,
+        "max_frame_difference": 9.273878038194445,
+        "config_sha256": "7ac4882bb265b5f09a94f29e0aeb2c1fb2b20462c40260b7aa90d33caeab7d4d",
+        "last_ik": {
+          "success": true,
+          "reason": "finite_tracking_step",
+          "foot_error_m": 3.29881698581282e-08,
+          "body_position_error_m": 0.00011063871036762655,
+          "body_angle_error_deg": 0.0011865209091680511,
+          "ee_position_error_m": 2.9369098859728854e-05,
+          "ee_angle_error_deg": 0.013049729548268657,
+          "planned_base": [
+            -0.030667230818898772,
+            -9.73574243654032e-06,
+            0.4799969595644418,
+            0.9999898182124927,
+            -8.199600341167745e-08,
+            8.139848654737513e-07,
+            -0.004512590240250377
+          ],
+          "actual_foot_anchor_error_m": 0.003956326703751847,
+          "actual_position_error": 0.0037878938426243168,
+          "actual_orientation_error_deg": 0.6400382804182678,
+          "body_goal": [
+            -0.03055715188384056,
+            9.587965905666351e-07,
+            0.47999998927116394
+          ],
+          "contact_force_targets": [
+            [
+              -1.1999416808158876,
+              0.045269502565401916,
+              173.99470860600755
+            ],
+            [
+              -1.1983333698147232,
+              0.045208826750770925,
+              173.76149926886276
+            ],
+            [
+              -0.9750954585811865,
+              0.03678685978616797,
+              141.39141334228455
+            ],
+            [
+              -0.9811280736635373,
+              0.037014448750125675,
+              142.26615844045642
+            ]
+          ],
+          "model_mass": 75.68647079999998,
+          "support_com": [
+            -0.008132587787971773,
+            0.0031001703768016105,
+            0.46233497688297737
+          ],
+          "support_torque": [
+            27.821018076951777,
+            -0.6310464266543103,
+            46.03934057709204,
+            -28.3650772716584,
+            -4.167261122537068,
+            43.990909593166506,
+            23.91528252025536,
+            -2.9054301706397174,
+            35.85250111224101,
+            -25.491335745850822,
+            -2.6915036812339803,
+            35.86665199385111
+          ],
+          "joint_gravity_ff": [
+            -4.568075656890869,
+            2.7848024368286133,
+            -0.7417027950286865,
+            4.5653300285339355,
+            2.9177050590515137,
+            -0.712699830532074,
+            -4.604250431060791,
+            2.880805730819702,
+            -0.7136037349700928,
+            4.675918102264404,
+            2.8476943969726562,
+            -0.7097541093826294
+          ],
+          "joint_total_ff": [
+            23.252942420060908,
+            2.1537560101743027,
+            45.297637782063354,
+            -23.799747243124465,
+            -1.2495560634855547,
+            43.27820976263443,
+            19.31103208919457,
+            -0.024624439820015276,
+            35.138897377270915,
+            -20.815417643586418,
+            0.15619071573867593,
+            35.15689788446848
+          ]
+        },
+        "isaac_urdf_wrist_fk_error_m": 3.880170918983669e-07,
+        "usd_base_translation": [
+          -0.027718933299183846,
+          -0.000109825748950243,
+          0.4786282479763031
+        ],
+        "physx_base_translation": [
+          -0.027718933299183846,
+          -0.000109825748950243,
+          0.4786282479763031
+        ],
+        "usd_physx_translation_error_m": 0.0
+      },
+      "path_audit": {
+        "run": "/root/Desktop/TaskB/runs/mink_multiclass/nine_01/mustard_yaw_p45/trial_01",
+        "sampled_frames": 519,
+        "obb_pair_tests": 114699,
+        "minimum_arm_ground_clearance_m": 0.13770705680406398,
+        "conservative_overlap_count": 0,
+        "events": [],
+        "clear": true,
+        "method": "Local URDF collision AABBs transformed as OBBs, 15-axis SAT against body and all leg links, camera/trace checked separately. Fixed mount excluded."
+      }
+    },
+    {
+      "case": {
+        "case_id": "sugar_yaw_p45",
+        "object": "sugar",
+        "yaw_deg": 45,
+        "config": "experiments/mink_multiclass/configs/sugar_yaw_p45.json"
+      },
+      "configuration": {
+        "title": "三物体三朝向已知目标抓取诊断",
+        "object_asset": "004_sugar_box.usd",
+        "object_xy": [
+          0.55,
+          0.0
+        ],
+        "object_quat_wxyz": [
+          0.6532814824381883,
+          -0.6532814824381883,
+          -0.2705980500730985,
+          0.27059805007309856
+        ],
+        "tcp_offset_link06": [
+          0.21,
+          0.0,
+          0.012
+        ],
+        "grasp_world": [
+          0.55,
+          2.7755575615628915e-18,
+          0.1396
+        ],
+        "grasp_rpy": [
+          0.7853981633974481,
+          1.5707963267948966,
+          0.0
+        ],
+        "pregrasp_up": 0.12,
+        "lift_up": 0.15,
+        "arm_speed_rad_s": 0.4,
+        "gripper_open": -1.3,
+        "stage_limits_s": {
+          "SETTLE": 6.0,
+          "OPEN": 9.0,
+          "PREGRASP": 18.0,
+          "APPROACH": 14.0,
+          "CLOSE": 10.0,
+          "LIFT": 15.0,
+          "HOLD": 4.0,
+          "SQUAT": 14.0
+        },
+        "thresholds": {
+          "ik_position_m": 0.005,
+          "ik_orientation_deg": 5.0,
+          "rise_m": 0.1,
+          "bottom_m": 0.02,
+          "hold_s": 3.0,
+          "tilt_deg": 15.0,
+          "drift_m": 0.1
+        },
+        "max_sim_s": 100.0,
+        "max_wall_s": 300.0,
+        "notes": "Exactly one physical attempt per case; no navigation, no distance sweep, no retries. Geometry-defined known grasp point. Thresholds and dynamics unchanged.",
+        "grasp_local_point": [
+          0.0,
+          -0.05,
+          0.0
+        ],
+        "history_initialization": "100 repeated initial measured standing observations, required by supplied deployment manifest",
+        "body_height": 0.42,
+        "lift_body_height": 0.48,
+        "body_pitch_rad": 0.0,
+        "squat_duration_s": 8.0,
+        "handover_s": 2.0,
+        "case_id": "sugar_yaw_p45",
+        "object_class": "sugar",
+        "object_yaw_deg": 45,
+        "distance_tested": false,
+        "root_distance_m": 0.55,
+        "repeat_count": 1
+      },
+      "result": {
+        "success": true,
+        "max_rise_m": 0.1464449241757393,
+        "max_valid_hold_s": 5.839999999999963,
+        "last": {
+          "sim_time": 51.28,
+          "state": "DONE",
+          "initial_root_z": 0.08735395222902298,
+          "object_root": [
+            0.5542692542076111,
+            -0.006924826186150312,
+            0.23299473524093628
+          ],
+          "rise_m": 0.1456407830119133,
+          "bottom_m": 0.14455816772110347,
+          "grip_point_in_wrist": [
+            0.21428167689298347,
+            -0.0037782578251289536,
+            0.015072098315623854
+          ],
+          "in_jaws": true,
+          "jaw_forces": [
+            35.00240891548837,
+            38.487471290525974
+          ],
+          "dual_contact": true,
+          "tilt_deg": 0.05233915627441309,
+          "drift_m": 0.004362535662949085,
+          "illegal_contact": false,
+          "valid_hold_s": 5.839999999999963,
+          "filtered_jaw_forces": [
+            0.0,
+            0.0
+          ],
+          "net_jaw_forces": [
+            34.951927185058594,
+            38.476383209228516
+          ],
+          "native_contacts": [
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.19256081730821872,
+              "positions": [
+                [
+                  0.5385642051696777,
+                  -0.04577634111046791,
+                  0.3194175064563751
+                ],
+                [
+                  0.5914565324783325,
+                  0.007032571826130152,
+                  0.3214132785797119
+                ],
+                [
+                  0.591681957244873,
+                  0.006796798203140497,
+                  0.31959372758865356
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.17522816443228112,
+              "positions": [
+                [
+                  0.5576661229133606,
+                  0.027594681829214096,
+                  0.29827746748924255
+                ],
+                [
+                  0.530461311340332,
+                  0.0004378729499876499,
+                  0.2643880248069763
+                ],
+                [
+                  0.5236548185348511,
+                  -0.0058784387074410915,
+                  0.29845884442329407
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.19241581483408515,
+              "positions": [
+                [
+                  0.5385700464248657,
+                  -0.04577666521072388,
+                  0.31940972805023193
+                ],
+                [
+                  0.5914624333381653,
+                  0.007032195571810007,
+                  0.3214067220687866
+                ],
+                [
+                  0.5916878581047058,
+                  0.006796423811465502,
+                  0.31958717107772827
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.17502002091104846,
+              "positions": [
+                [
+                  0.5576725006103516,
+                  0.02759440615773201,
+                  0.2982702851295471
+                ],
+                [
+                  0.5304684042930603,
+                  0.0004377090372145176,
+                  0.26438018679618835
+                ],
+                [
+                  0.5236611366271973,
+                  -0.005878686439245939,
+                  0.29845088720321655
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.19239087574189054,
+              "positions": [
+                [
+                  0.5385867953300476,
+                  -0.04577634483575821,
+                  0.3193834722042084
+                ],
+                [
+                  0.5914794206619263,
+                  0.007032160647213459,
+                  0.32138344645500183
+                ],
+                [
+                  0.5917049646377563,
+                  0.006796359084546566,
+                  0.31956392526626587
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.17504035523911965,
+              "positions": [
+                [
+                  0.5576912760734558,
+                  0.02759426273405552,
+                  0.29824429750442505
+                ],
+                [
+                  0.5304893255233765,
+                  0.0004372512921690941,
+                  0.2643526792526245
+                ],
+                [
+                  0.5236796140670776,
+                  -0.00587858259677887,
+                  0.2984229624271393
+                ]
+              ]
+            },
+            {
+              "jaw": 1,
+              "actor0": "/World/envs/env_0/Robot/gripperMover",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.19238191792632509,
+              "positions": [
+                [
+                  0.5386172533035278,
+                  -0.04577622935175896,
+                  0.31933146715164185
+                ],
+                [
+                  0.5915099382400513,
+                  0.007032047491520643,
+                  0.32133615016937256
+                ],
+                [
+                  0.5917356610298157,
+                  0.006796230096369982,
+                  0.3195166289806366
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_04_sugar_box",
+              "impulse_Ns": 0.17475963772731823,
+              "positions": [
+                [
+                  0.557724118232727,
+                  0.027594098821282387,
+                  0.29819345474243164
+                ],
+                [
+                  0.5305253863334656,
+                  0.0004368959926068783,
+                  0.2642994523048401
+                ],
+                [
+                  0.5237123370170593,
+                  -0.005878588650375605,
+                  0.2983691394329071
+                ]
+              ]
+            }
+          ],
+          "native_contact_errors": []
+        },
+        "trial": 1,
+        "mode": "grasp",
+        "state": "DONE",
+        "reason": "",
+        "history": [
+          {
+            "time": 6.01999999999996,
+            "from": "SETTLE",
+            "to": "SQUAT",
+            "reason": ""
+          },
+          {
+            "time": 16.039999999999747,
+            "from": "SQUAT",
+            "to": "OPEN",
+            "reason": ""
+          },
+          {
+            "time": 21.199999999999637,
+            "from": "OPEN",
+            "to": "PREGRASP",
+            "reason": ""
+          },
+          {
+            "time": 27.21999999999951,
+            "from": "PREGRASP",
+            "to": "APPROACH",
+            "reason": ""
+          },
+          {
+            "time": 33.2399999999996,
+            "from": "APPROACH",
+            "to": "CLOSE",
+            "reason": ""
+          },
+          {
+            "time": 41.26000000000085,
+            "from": "CLOSE",
+            "to": "LIFT",
+            "reason": ""
+          },
+          {
+            "time": 47.28000000000179,
+            "from": "LIFT",
+            "to": "HOLD",
+            "reason": ""
+          },
+          {
+            "time": 51.28000000000242,
+            "from": "HOLD",
+            "to": "DONE",
+            "reason": ""
+          }
+        ],
+        "sim_time": 51.28,
+        "wall_time": 134.12081267079338,
+        "frames": 513,
+        "max_frame_difference": 9.263338758680556,
+        "config_sha256": "8c26a62d675dac15789ff72574d9f845c1a87dcee94d0cc118f578f93c395e4f",
+        "last_ik": {
+          "success": true,
+          "reason": "finite_tracking_step",
+          "foot_error_m": 3.4082370291775235e-08,
+          "body_position_error_m": 0.00011513880754901942,
+          "body_angle_error_deg": 0.0012064417490574597,
+          "ee_position_error_m": 3.0061044144845025e-05,
+          "ee_angle_error_deg": 0.013340107907686222,
+          "planned_base": [
+            -0.03053337533100324,
+            -6.068029006544491e-05,
+            0.47999692080506234,
+            0.9999898525756729,
+            -5.815334863798935e-08,
+            8.121403843974024e-07,
+            -0.004504968925642871
+          ],
+          "actual_foot_anchor_error_m": 0.003954290431708632,
+          "actual_position_error": 0.00376084515842354,
+          "actual_orientation_error_deg": 0.604435759904665,
+          "body_goal": [
+            -0.03041851706802845,
+            -5.3256750106811523e-05,
+            0.47999998927116394
+          ],
+          "contact_force_targets": [
+            [
+              -1.1981558117684399,
+              0.04624205363269473,
+              174.39567912229282
+            ],
+            [
+              -1.1940004763879701,
+              0.04608168113386095,
+              173.79085583592214
+            ],
+            [
+              -0.9712724415562434,
+              0.037485635752257516,
+              141.37202807367814
+            ],
+            [
+              -0.9746933495970634,
+              0.03761766349985291,
+              141.86995294716615
+            ]
+          ],
+          "model_mass": 75.68647079999998,
+          "support_com": [
+            -0.007675674986726576,
+            0.002820567344880026,
+            0.46118604534843743
+          ],
+          "support_torque": [
+            27.877190922452236,
+            -0.6523450442595194,
+            46.13673913587948,
+            -28.377908135948566,
+            -4.186575007303476,
+            43.98619153875138,
+            23.90425822413699,
+            -2.9214012187873513,
+            35.84032016925328,
+            -25.429025834119138,
+            -2.69898640501979,
+            35.7565570167037
+          ],
+          "joint_gravity_ff": [
+            -4.567726135253906,
+            2.7857613563537598,
+            -0.7415621280670166,
+            4.565525531768799,
+            2.9183919429779053,
+            -0.7125061750411987,
+            -4.6038432121276855,
+            2.881770610809326,
+            -0.7134578227996826,
+            4.676172733306885,
+            2.8483481407165527,
+            -0.7095546722412109
+          ],
+          "joint_total_ff": [
+            23.30946478719833,
+            2.13341631209424,
+            45.395177007812464,
+            -23.812382604179767,
+            -1.2681830643255712,
+            43.27368536371018,
+            19.300415012009303,
+            -0.03963060797802509,
+            35.1268623464536,
+            -20.752853100812253,
+            0.14936173569676292,
+            35.04700234446249
+          ]
+        },
+        "isaac_urdf_wrist_fk_error_m": 5.393645196160909e-07,
+        "usd_base_translation": [
+          -0.027585657313466072,
+          -0.00016336096450686455,
+          0.4786301255226135
+        ],
+        "physx_base_translation": [
+          -0.027585657313466072,
+          -0.00016336096450686455,
+          0.4786301255226135
+        ],
+        "usd_physx_translation_error_m": 0.0
+      },
+      "path_audit": {
+        "run": "/root/Desktop/TaskB/runs/mink_multiclass/nine_01/sugar_yaw_p45/trial_01",
+        "sampled_frames": 519,
+        "obb_pair_tests": 114699,
+        "minimum_arm_ground_clearance_m": 0.11038279389932387,
+        "conservative_overlap_count": 0,
+        "events": [],
+        "clear": true,
+        "method": "Local URDF collision AABBs transformed as OBBs, 15-axis SAT against body and all leg links, camera/trace checked separately. Fixed mount excluded."
+      }
+    },
+    {
+      "case": {
+        "case_id": "banana_yaw_p45",
+        "object": "banana",
+        "yaw_deg": 45,
+        "config": "experiments/mink_multiclass/configs/banana_yaw_p45.json"
+      },
+      "configuration": {
+        "title": "三物体三朝向已知目标抓取诊断",
+        "object_asset": "011_banana.usd",
+        "object_xy": [
+          0.55,
+          0.0
+        ],
+        "object_quat_wxyz": [
+          0.6532814824381883,
+          -0.6532814824381883,
+          -0.2705980500730985,
+          0.27059805007309856
+        ],
+        "tcp_offset_link06": [
+          0.235,
+          0.0,
+          0.012
+        ],
+        "grasp_world": [
+          0.5626925667222986,
+          -0.012692566722298529,
+          0.021
+        ],
+        "grasp_rpy": [
+          0.7853981633974481,
+          1.5707963267948966,
+          0.0
+        ],
+        "pregrasp_up": 0.12,
+        "lift_up": 0.15,
+        "arm_speed_rad_s": 0.4,
+        "gripper_open": -1.3,
+        "stage_limits_s": {
+          "SETTLE": 6.0,
+          "OPEN": 9.0,
+          "PREGRASP": 18.0,
+          "APPROACH": 14.0,
+          "CLOSE": 10.0,
+          "LIFT": 15.0,
+          "HOLD": 4.0,
+          "SQUAT": 14.0
+        },
+        "thresholds": {
+          "ik_position_m": 0.005,
+          "ik_orientation_deg": 5.0,
+          "rise_m": 0.1,
+          "bottom_m": 0.02,
+          "hold_s": 3.0,
+          "tilt_deg": 15.0,
+          "drift_m": 0.1
+        },
+        "max_sim_s": 100.0,
+        "max_wall_s": 300.0,
+        "notes": "Exactly one physical attempt per case; no navigation, no distance sweep, no retries. Geometry-defined known grasp point. Thresholds and dynamics unchanged.",
+        "grasp_local_point": [
+          0.0,
+          0.0,
+          -0.01795
+        ],
+        "history_initialization": "100 repeated initial measured standing observations, required by supplied deployment manifest",
+        "body_height": 0.34,
+        "lift_body_height": 0.4,
+        "body_pitch_rad": 0.0,
+        "squat_duration_s": 8.0,
+        "handover_s": 2.0,
+        "case_id": "banana_yaw_p45",
+        "object_class": "banana",
+        "object_yaw_deg": 45,
+        "distance_tested": false,
+        "root_distance_m": 0.55,
+        "repeat_count": 1
+      },
+      "result": {
+        "success": false,
+        "max_rise_m": 2.4013221263885498e-05,
+        "max_valid_hold_s": 0.0,
+        "last": {
+          "sim_time": 41.24,
+          "state": "FAIL",
+          "initial_root_z": 0.01508750393986702,
+          "object_root": [
+            0.5474807620048523,
+            0.0022629746235907078,
+            0.015106267295777798
+          ],
+          "rise_m": 1.8763355910778046e-05,
+          "bottom_m": -0.0018370850715096441,
+          "grip_point_in_wrist": [
+            0.25224771031676346,
+            0.00018567701362993098,
+            0.008353184968029038
+          ],
+          "in_jaws": false,
+          "jaw_forces": [
+            43.401486677123714,
+            0.0
+          ],
+          "dual_contact": false,
+          "tilt_deg": 0.7343536599167113,
+          "drift_m": 0.015700917690992355,
+          "illegal_contact": false,
+          "valid_hold_s": 0.0,
+          "filtered_jaw_forces": [
+            0.0,
+            0.0
+          ],
+          "net_jaw_forces": [
+            43.35688781738281,
+            0.0
+          ],
+          "native_contacts": [
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_11_banana",
+              "impulse_Ns": 0.21695331216396715,
+              "positions": [
+                [
+                  0.5200439095497131,
+                  -0.025020774453878403,
+                  0.032270390540361404
+                ],
+                [
+                  0.570145308971405,
+                  0.033812373876571655,
+                  0.0293649323284626
+                ],
+                [
+                  0.5453920960426331,
+                  0.0004981276579201221,
+                  0.032530076801776886
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_11_banana",
+              "impulse_Ns": 0.21709939463438982,
+              "positions": [
+                [
+                  0.5200437307357788,
+                  -0.02502066269516945,
+                  0.0322704017162323
+                ],
+                [
+                  0.5701451301574707,
+                  0.03381246328353882,
+                  0.02936486527323723
+                ],
+                [
+                  0.5453919768333435,
+                  0.0004982335958629847,
+                  0.03253006935119629
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_11_banana",
+              "impulse_Ns": 0.21719257593016672,
+              "positions": [
+                [
+                  0.5200436115264893,
+                  -0.025020558387041092,
+                  0.032270390540361404
+                ],
+                [
+                  0.5701450109481812,
+                  0.03381257876753807,
+                  0.029364731162786484
+                ],
+                [
+                  0.5453917980194092,
+                  0.0004983486142009497,
+                  0.032530009746551514
+                ]
+              ]
+            },
+            {
+              "jaw": 0,
+              "actor0": "/World/envs/env_0/Robot/gripperStator",
+              "actor1": "/World/envs/env_0/Object/_11_banana",
+              "impulse_Ns": 0.21678445081395065,
+              "positions": [
+                [
+                  0.5200437307357788,
+                  -0.02502058446407318,
+                  0.03227037936449051
+                ],
+                [
+                  0.5701451301574707,
+                  0.03381256014108658,
+                  0.029364757239818573
+                ],
+                [
+                  0.5453919172286987,
+                  0.0004983243998140097,
+                  0.03253001347184181
+                ]
+              ]
+            }
+          ],
+          "native_contact_errors": []
+        },
+        "trial": 1,
+        "mode": "grasp",
+        "state": "FAIL",
+        "reason": "approach_timeout",
+        "history": [
+          {
+            "time": 6.01999999999996,
+            "from": "SETTLE",
+            "to": "SQUAT",
+            "reason": ""
+          },
+          {
+            "time": 16.039999999999747,
+            "from": "SQUAT",
+            "to": "OPEN",
+            "reason": ""
+          },
+          {
+            "time": 21.199999999999637,
+            "from": "OPEN",
+            "to": "PREGRASP",
+            "reason": ""
+          },
+          {
+            "time": 27.21999999999951,
+            "from": "PREGRASP",
+            "to": "APPROACH",
+            "reason": ""
+          },
+          {
+            "time": 41.24000000000085,
+            "from": "APPROACH",
+            "to": "FAIL",
+            "reason": "approach_timeout"
+          }
+        ],
+        "sim_time": 41.24,
+        "wall_time": 102.82657102774829,
+        "frames": 413,
+        "max_frame_difference": 9.218505859375,
+        "config_sha256": "fde75ddd2092df516893b8200b7189c75935da00faa699a19ae6538310881eab",
+        "last_ik": {
+          "success": true,
+          "reason": "finite_tracking_step",
+          "foot_error_m": 2.9399633640977264e-08,
+          "body_position_error_m": 0.00011332884428744418,
+          "body_angle_error_deg": 0.0011462126742297902,
+          "ee_position_error_m": 2.8377389876951778e-05,
+          "ee_angle_error_deg": 0.014005121800623735,
+          "planned_base": [
+            -0.03527935081377826,
+            5.66251840149101e-05,
+            0.33999848189752513,
+            0.9999898167037126,
+            -1.6640158776180686e-09,
+            5.474401701329216e-07,
+            -0.00451292461448311
+          ],
+          "actual_foot_anchor_error_m": 0.000607355098333712,
+          "actual_position_error": 0.01521768562363552,
+          "actual_orientation_error_deg": 0.6054085105205277,
+          "body_goal": [
+            -0.03516603261232376,
+            5.631428211927414e-05,
+            0.3400000035762787
+          ],
+          "contact_force_targets": [
+            [
+              1.6459717454726872,
+              0.0245730594392264,
+              200.66915143713297
+            ],
+            [
+              1.6365528737564365,
+              0.02443244311627281,
+              199.52084679582066
+            ],
+            [
+              1.3868128980709393,
+              0.02070402233155982,
+              169.07372087243672
+            ],
+            [
+              1.3855429990930448,
+              0.020685063741807935,
+              168.91890074809018
+            ]
+          ],
+          "model_mass": 75.68647079999998,
+          "support_com": [
+            -0.020150568039494023,
+            0.0024393387697660717,
+            0.32728566554976674
+          ],
+          "support_torque": [
+            31.828398374802028,
+            0.9388038987599121,
+            62.270531623989946,
+            -32.27144585620714,
+            -2.9692388350027192,
+            59.72333969772996,
+            28.297307079056495,
+            -2.031105122811935,
+            50.93844391842948,
+            -29.91141609647507,
+            -1.718895960340649,
+            50.573164499556704
+          ],
+          "joint_gravity_ff": [
+            -4.530209541320801,
+            3.1339001655578613,
+            -0.8489990830421448,
+            4.510353088378906,
+            3.2531399726867676,
+            -0.8213620185852051,
+            -4.536624908447266,
+            3.2362847328186035,
+            -0.8260120749473572,
+            4.593679904937744,
+            3.1983184814453125,
+            -0.8209536075592041
+          ],
+          "joint_total_ff": [
+            27.298188833481227,
+            4.072704064317773,
+            61.4215325409478,
+            -27.76109276782823,
+            0.28390113768404834,
+            58.90197767914476,
+            23.76068217060923,
+            1.2051796100066685,
+            50.11243184348212,
+            -25.317736191537325,
+            1.4794225211046634,
+            49.7522108919975
+          ]
+        },
+        "isaac_urdf_wrist_fk_error_m": 4.3095826629471654e-07,
+        "usd_base_translation": [
+          -0.03906209394335747,
+          1.8472783267498016e-06,
+          0.3420957624912262
+        ],
+        "physx_base_translation": [
+          -0.03906209394335747,
+          1.8472783267498016e-06,
+          0.3420957624912262
+        ],
+        "usd_physx_translation_error_m": 0.0
+      },
+      "path_audit": {
+        "run": "/root/Desktop/TaskB/runs/mink_multiclass/nine_01/banana_yaw_p45/trial_01",
+        "sampled_frames": 416,
+        "obb_pair_tests": 91936,
+        "minimum_arm_ground_clearance_m": 0.03187815898345708,
+        "conservative_overlap_count": 0,
+        "events": [],
+        "clear": true,
+        "method": "Local URDF collision AABBs transformed as OBBs, 15-axis SAT against body and all leg links, camera/trace checked separately. Fixed mount excluded."
+      }
+    }
+  ]
+}

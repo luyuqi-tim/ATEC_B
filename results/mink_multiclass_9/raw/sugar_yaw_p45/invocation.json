@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/root/Desktop/TaskB/experiments/mink_wholebody/bench.py",
+    "--mode",
+    "grasp",
+    "--trials",
+    "1",
+    "--headless",
+    "--enable_cameras",
+    "--record-video",
+    "--config",
+    "/root/Desktop/TaskB/experiments/mink_multiclass/configs/sugar_yaw_p45.json",
+    "--output",
+    "/root/Desktop/TaskB/runs/mink_multiclass/nine_01/sugar_yaw_p45"
+  ],
+  "output": "/root/Desktop/TaskB/runs/mink_multiclass/nine_01/sugar_yaw_p45",
+  "history_warmup": 100
+}
