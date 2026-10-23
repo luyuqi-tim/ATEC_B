@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "/root/Desktop/TaskB/experiments/mink_banana/bench.py",
+    "--mode",
+    "grasp",
+    "--config",
+    "experiments/mink_banana/configs/contact_latch_12.json",
+    "--output",
+    "runs/mink_banana/contact_latch_12",
+    "--record-video",
+    "--enable_cameras",
+    "--headless",
+    "--device",
+    "cpu",
+    "--trials",
+    "1"
+  ],
+  "output": "runs/mink_banana/contact_latch_12",
+  "history_warmup": 100
+}

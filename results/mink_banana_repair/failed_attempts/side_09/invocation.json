@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "/root/Desktop/TaskB/experiments/mink_banana/bench.py",
+    "--mode",
+    "grasp",
+    "--config",
+    "experiments/mink_banana/configs/side_09.json",
+    "--output",
+    "runs/mink_banana/side_09",
+    "--record-video",
+    "--enable_cameras",
+    "--headless",
+    "--device",
+    "cpu",
+    "--trials",
+    "1"
+  ],
+  "output": "runs/mink_banana/side_09",
+  "history_warmup": 100
+}

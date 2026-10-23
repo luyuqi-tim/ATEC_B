@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/root/Desktop/TaskB/experiments/mink_wholebody/bench.py",
+    "--mode",
+    "grasp",
+    "--trials",
+    "1",
+    "--headless",
+    "--enable_cameras",
+    "--record-video",
+    "--config",
+    "experiments/mink_banana/configs/tilt_03.json",
+    "--output",
+    "runs/mink_banana/tilt_03"
+  ],
+  "output": "runs/mink_banana/tilt_03",
+  "history_warmup": 100
+}

@@ -1,0 +1,10 @@
+{
+  "run": "runs/mink_banana/thin_side_10/trial_01",
+  "sampled_frames": 396,
+  "obb_pair_tests": 87516,
+  "minimum_arm_ground_clearance_m": 0.0030602265404296447,
+  "conservative_overlap_count": 0,
+  "events": [],
+  "clear": true,
+  "method": "Exact transformed collision-mesh vertex minimum against ground; conservative local URDF OBBs and 15-axis SAT against body and all leg links. Sampled executed trajectory, fixed mount excluded."
+}

@@ -1,0 +1,2 @@
+trial,mode,state,success,reason,sim_time,wall_time,max_rise_m,max_valid_hold_s,frames,isaac_urdf_wrist_fk_error_m,usd_physx_translation_error_m
+1,grasp,FAIL,False,wholebody_ik_failure,23.94,56.32366704987362,0.0,0.0,240,3.782414403424649e-07,0.0

@@ -1,0 +1,2 @@
+trial,mode,state,success,reason,sim_time,wall_time,max_rise_m,max_valid_hold_s,frames,isaac_urdf_wrist_fk_error_m,usd_physx_translation_error_m
+1,grasp,DONE,False,,51.28,124.5261254538782,0.009976692497730255,0.0,513,4.5224493974510174e-07,0.0

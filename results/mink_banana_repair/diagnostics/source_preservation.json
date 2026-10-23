@@ -1,0 +1,67 @@
+[
+  {
+    "case": "outside_01",
+    "files": 10,
+    "all_sha256_match": true
+  },
+  {
+    "case": "deeper_02",
+    "files": 10,
+    "all_sha256_match": true
+  },
+  {
+    "case": "tilt_03",
+    "files": 10,
+    "all_sha256_match": true
+  },
+  {
+    "case": "centered_04",
+    "files": 16,
+    "all_sha256_match": true
+  },
+  {
+    "case": "angled_05",
+    "files": 17,
+    "all_sha256_match": true
+  },
+  {
+    "case": "steep_06",
+    "files": 17,
+    "all_sha256_match": true
+  },
+  {
+    "case": "roll_07",
+    "files": 18,
+    "all_sha256_match": true
+  },
+  {
+    "case": "diagonal_08",
+    "files": 18,
+    "all_sha256_match": true
+  },
+  {
+    "case": "side_09",
+    "files": 18,
+    "all_sha256_match": true
+  },
+  {
+    "case": "thin_side_10",
+    "files": 18,
+    "all_sha256_match": true
+  },
+  {
+    "case": "contact_latch_11",
+    "files": 18,
+    "all_sha256_match": true
+  },
+  {
+    "case": "contact_latch_12",
+    "files": 18,
+    "all_sha256_match": true
+  },
+  {
+    "case": "centered_offset_13",
+    "files": 18,
+    "all_sha256_match": true
+  }
+]

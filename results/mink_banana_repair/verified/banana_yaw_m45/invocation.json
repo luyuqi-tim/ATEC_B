@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "/root/Desktop/TaskB/experiments/mink_banana/bench.py",
+    "--mode",
+    "grasp",
+    "--config",
+    "experiments/mink_banana/configs/banana_yaw_m45.json",
+    "--output",
+    "/root/Desktop/TaskB/runs/mink_banana/verify_3/banana_yaw_m45",
+    "--record-video",
+    "--enable_cameras",
+    "--headless",
+    "--device",
+    "cpu",
+    "--trials",
+    "1"
+  ],
+  "output": "/root/Desktop/TaskB/runs/mink_banana/verify_3/banana_yaw_m45",
+  "history_warmup": 100
+}

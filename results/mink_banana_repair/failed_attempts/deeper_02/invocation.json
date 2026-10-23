@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/root/Desktop/TaskB/experiments/mink_wholebody/bench.py",
+    "--mode",
+    "grasp",
+    "--trials",
+    "1",
+    "--headless",
+    "--enable_cameras",
+    "--record-video",
+    "--config",
+    "experiments/mink_banana/configs/deeper_02.json",
+    "--output",
+    "runs/mink_banana/deeper_02"
+  ],
+  "output": "runs/mink_banana/deeper_02",
+  "history_warmup": 100
+}

@@ -1,0 +1,29 @@
+{
+  "command": [
+    "/isaac-sim/python.sh",
+    "-u",
+    "/root/Desktop/TaskB/experiments/mink_banana/bench.py",
+    "--mode",
+    "grasp",
+    "--config",
+    "experiments/mink_banana/configs/contact_latch_11.json",
+    "--output",
+    "runs/mink_banana/contact_latch_11",
+    "--record-video",
+    "--enable_cameras",
+    "--headless",
+    "--device",
+    "cpu",
+    "--trials",
+    "1"
+  ],
+  "elapsed_s": 130.37038385495543,
+  "overall_timeout_s": 495.0,
+  "ready": true,
+  "completed_result_marker": true,
+  "native_exit_code": -15,
+  "forced_native_cleanup": true,
+  "cleanup_reason": "native_teardown_exceeded_5s_after_results_flushed",
+  "diagnostic_pass": false,
+  "exit_code": 1
+}

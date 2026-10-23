@@ -1,0 +1,2 @@
+trial,mode,state,success,reason,sim_time,wall_time,max_rise_m,max_valid_hold_s,frames,isaac_urdf_wrist_fk_error_m,usd_physx_translation_error_m
+1,grasp,FAIL,False,approach_timeout,39.24,100.984540454112,0.0005492791533470154,0.0,393,4.5170133076741276e-07,0.0

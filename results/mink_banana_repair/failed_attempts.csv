@@ -1,0 +1,13 @@
+case,success,state,reason,max_rise_m,max_valid_hold_s
+outside_01,False,DONE,,0.012654265388846397,0.0
+deeper_02,False,FAIL,approach_timeout,0.000329459086060524,0.0
+tilt_03,False,DONE,,0.009976692497730255,0.0
+centered_04,False,DONE,,0.034637317061424255,0.0
+angled_05,False,FAIL,wholebody_ik_failure,0.0,0.0
+steep_06,False,FAIL,approach_timeout,0.0005515646189451218,0.0
+roll_07,False,DONE,,0.001184435561299324,0.0
+diagonal_08,False,FAIL,approach_timeout,0.0005492791533470154,0.0
+side_09,False,FAIL,approach_timeout,0.0001449044793844223,0.0
+thin_side_10,False,FAIL,approach_timeout,0.002583475783467293,0.0
+contact_latch_11,False,FAIL,approach_timeout,0.002583475783467293,0.0
+contact_latch_12,False,DONE,,0.003064878284931183,0.0

@@ -1,0 +1,10 @@
+{
+  "controller.jsonl": {
+    "uncompressed_sha256": "1cf7eb999948a0f7f94484104d423e2494561b8cbe4193411f849b1d1371aec1",
+    "gzip_sha256": "d8b624ab64a297c4c45e63a40d03adf14e175dd6bed28f32be1b59fd8c9e2f3f"
+  },
+  "evaluation.jsonl": {
+    "uncompressed_sha256": "6fb72ec060fecefe48d1797e6019d0b346e35ffc514fdb4b014f324000f056a5",
+    "gzip_sha256": "afec41a2b957238189a29a26f3d22e223ee0ca73b4ec9ae4b7f646836e7ec3e6"
+  }
+}

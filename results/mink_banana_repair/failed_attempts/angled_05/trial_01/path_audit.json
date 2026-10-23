@@ -1,0 +1,10 @@
+{
+  "run": "runs/mink_banana/angled_05/trial_01",
+  "sampled_frames": 243,
+  "obb_pair_tests": 53703,
+  "minimum_arm_ground_clearance_m": 0.20695278584441085,
+  "conservative_overlap_count": 0,
+  "events": [],
+  "clear": true,
+  "method": "Exact transformed collision-mesh vertex minimum against ground; conservative local URDF OBBs and 15-axis SAT against body and all leg links. Sampled executed trajectory, fixed mount excluded."
+}

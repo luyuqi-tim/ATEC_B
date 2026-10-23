@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/isaac-sim/python.sh",
+    "-u",
+    "/root/Desktop/TaskB/experiments/mink_wholebody/bench.py",
+    "--mode",
+    "grasp",
+    "--trials",
+    "1",
+    "--headless",
+    "--enable_cameras",
+    "--record-video",
+    "--config",
+    "experiments/mink_banana/configs/tilt_03.json",
+    "--output",
+    "runs/mink_banana/tilt_03"
+  ],
+  "elapsed_s": 147.94576600426808,
+  "overall_timeout_s": 495.0,
+  "ready": true,
+  "completed_result_marker": true,
+  "native_exit_code": -15,
+  "forced_native_cleanup": true,
+  "cleanup_reason": "native_teardown_exceeded_5s_after_results_flushed",
+  "diagnostic_pass": false,
+  "exit_code": 1
+}
