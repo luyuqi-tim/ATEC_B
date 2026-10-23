@@ -1,0 +1,81 @@
+{
+  "method": "Independent URDF tree product vs MuJoCo model FK, 3 nonzero full-joint/base samples",
+  "maximum_matrix_error": 7.549137087153309e-16,
+  "samples": [
+    {
+      "sample": 0,
+      "body": "FR_foot",
+      "matrix_error": 3.4106959965716017e-16
+    },
+    {
+      "sample": 0,
+      "body": "FL_foot",
+      "matrix_error": 1.887902037535748e-16
+    },
+    {
+      "sample": 0,
+      "body": "RR_foot",
+      "matrix_error": 4.810535519880077e-16
+    },
+    {
+      "sample": 0,
+      "body": "RL_foot",
+      "matrix_error": 4.273057404131875e-16
+    },
+    {
+      "sample": 0,
+      "body": "link06",
+      "matrix_error": 7.549137087153309e-16
+    },
+    {
+      "sample": 1,
+      "body": "FR_foot",
+      "matrix_error": 5.340694943204953e-16
+    },
+    {
+      "sample": 1,
+      "body": "FL_foot",
+      "matrix_error": 5.7673229357981e-16
+    },
+    {
+      "sample": 1,
+      "body": "RR_foot",
+      "matrix_error": 4.1004107616799284e-16
+    },
+    {
+      "sample": 1,
+      "body": "RL_foot",
+      "matrix_error": 6.754671073345277e-16
+    },
+    {
+      "sample": 1,
+      "body": "link06",
+      "matrix_error": 6.936117791011997e-16
+    },
+    {
+      "sample": 2,
+      "body": "FR_foot",
+      "matrix_error": 1.666869782356258e-16
+    },
+    {
+      "sample": 2,
+      "body": "FL_foot",
+      "matrix_error": 5.245617064323059e-16
+    },
+    {
+      "sample": 2,
+      "body": "RR_foot",
+      "matrix_error": 3.6087251963405914e-16
+    },
+    {
+      "sample": 2,
+      "body": "RL_foot",
+      "matrix_error": 2.0774716928878408e-16
+    },
+    {
+      "sample": 2,
+      "body": "link06",
+      "matrix_error": 7.51369596498113e-16
+    }
+  ]
+}

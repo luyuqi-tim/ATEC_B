@@ -1,0 +1,41 @@
+请在这台 Linux GPU 服务器上完成 Visual Whole-Body Control for Legged Loco-Manipulation 的独立可行性检查和短时抓取评估。先自主完成只读审计，再在独立目录和新 Python 环境中做必要安装及小范围兼容修复。每完成一阶段，用通俗中文汇报结果和下一步；专有名词附一句解释。
+
+本次目标：判断原生 B1＋Z1 的现有抓取模型能否运行，并在权重齐备时测量抓起、持物与掉落表现。本次只允许推理/评估，不启动任何训练，不迁移 B2，不接入 ATEC Task B，不安装篮子，不改变已有 Task B 目录、环境、计分或机器人资产。
+
+官方仓库：https://github.com/Ericonaldo/visual_wholebody.git
+已审查提交：869104c31953718f30ad20675e5291fcb5c5ea23
+高层说明：https://github.com/Ericonaldo/visual_wholebody/blob/main/high-level/README.md
+作者项目页：https://wholebody-b1.github.io/
+默认工作根目录：~/vbc-pilot。目录已有内容时先检查并复用，不覆盖用户文件。新建独立 conda 环境 vbc38。
+
+阶段 A：先审计资源。
+1. 记录操作系统、CPU、内存、可用磁盘、GPU/显存、驱动、conda、CUDA/PyTorch 和 Vulkan/图形能力。不要修改或降级系统驱动。
+2. 检出上述版本，检查资产路径，记录实际提交。读官方 README、高层和底层 README、环境配置与参数解析器。
+3. 分别查找底层控制权重、高层教师权重、高层视觉学生权重，记录来源、哈希、网络结构和训练参数。本次核查只确认官方根 README 有底层权重下载链接，未确认高层现成权重，必须实际查验服务器已有文件及作者公开资源。
+4. 底层权重不能替代高层抓取权重。没有高层权重时，继续完成可独立进行的环境和底层检查，报告缺项后停止，不自动训练、不用随机权重代替、不向作者或其他人发消息。若需要用户提供安装包或 checkpoint，准确列出所需文件类型。
+
+阶段 B：隔离环境并验证基本链路。
+1. 优先使用 Ubuntu 20.04 x86_64、单卡 RTX 3090 24GB 的环境。已有其他显卡时核对兼容性并说明差异，不自行换机器或购买资源。
+2. 作者栈是 Python 3.8、旧版 Isaac Gym。仓库 Gym 的 release notes 从 Preview 4 开始，setup.py 元数据仍标 preview3。检查实际附带包，不把它升级替换为 Isaac Lab。
+3. 仓库 rlgpu_conda_env.yml 提供 pytorch=1.10、cudatoolkit=11.3、setuptools=59.5.0 的起点；NumPy 可先用1.23.5作为候选。优先安装仓库内的 rsl_rl、skrl 与 low-level。根据实际依赖调整并记录最终锁定版本，不无条件安装最新版。
+4. 依次验证 Isaac Gym 导入、CUDA、仿真 stepping、GPU 图形设备与相机图像。headless 仅表示隐藏窗口，视觉评估仍要实际渲染。所有计算只在本服务器执行。
+
+阶段 C：模型与配置严格匹配。
+1. 将 high-level/data/cfg/b1z1_pickmulti.yaml 的 low_policy_path 改成实际下载位置，保留修改记录。
+2. 核对 observe_gait_commands 等观测开关；当前存在已公开的71/66维等不匹配问题。禁止用 strict=False、裁剪权重或删输入凑维度掩盖问题。
+3. 保留原生 B1＋Z1、相机、物体和原成功判据；不要先换成B2或修改抓取阈值。
+4. 当前 high-level/utils/config.py 没有 --num_envs 参数。评估代码设置34个环境，先保持原生评估数量短测；必须调整时做最小补丁并检查分类索引与空集合问题。
+5. checkpoint 文件名会被解析末尾数字，例如agent_60000.pt，不能随意改成student.pt。
+
+阶段 D：按可用权重进行评估。
+1. 先验证低层输出与短时稳定性，这不等于抓取成功。
+2. 有教师权重才运行 play_multistate.py。教师使用物体结构化/特权状态，只能报告教师抓取能力。
+3. 有视觉学生权重才运行 play_multi_bc_deter.py。先读源码确认配置，使用 --task B1Z1PickMulti、真实 --checkpoint、--rl_device cuda:0、--sim_device cuda:0、--graphics_device_id 0、--headless 及与权重匹配的其他flags。当前学生eval跳过教师checkpoint加载，不无依据要求推理必须另有教师权重。
+4. 先运行不超过1500个评估timesteps的短检查，并用进程级超时把单次评估限制在10分钟。确保调用eval而非train。前置条件不满足时不得继续。
+5. 跑通后再保存录像和重复评估；检查录像路径代码对checkpoint相对/绝对路径的假设，必要时只修路径并记录diff。
+6. 统计实际完整episode的尝试数、成功数、掉落和异常，保留官方成功逻辑；结合录像确认真实抓起与持物。不得瞬移物体、关闭物体碰撞、添加隐形夹持或降低阈值来提高成功率。
+7. 明确报告视觉输入中的目标mask来源：原生仿真使用segmentation图像，它不等于已经完成Task B的RGB目标识别。模拟器真实状态只能用于独立VBC原生教师/评价与诊断，不宣称其符合Task B策略输入约束。
+
+预算与交付：
+本轮试行建议总上限2小时，单次评估最多10分钟；若用户已给出其他预算，以用户预算为准。遇下载缺项或关键不兼容时保存现场并汇报，不反复启动失败进程，不自动转入长训练。结束时停止本次进程，提示用户检查服务器计费状态，不自行关闭整台机器。
+在outputs目录保存preflight.md、checkpoint_manifest.json、环境信息、pip-freeze.txt、实际命令、日志、可用录像、metrics.csv和result.md。必要补丁单独保存。最终明确列出：已通过哪些关卡、缺少什么、是否真正评估了视觉抓取、结果适用于哪个原生配置、下一步最小动作是什么。

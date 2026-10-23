@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "/root/Desktop/TaskB/experiments/mink_wholebody/bench.py",
+    "--mode",
+    "grasp",
+    "--trials",
+    "5",
+    "--headless",
+    "--enable_cameras",
+    "--record-video",
+    "--output",
+    "runs/mink_wholebody/final_5"
+  ],
+  "output": "runs/mink_wholebody/final_5",
+  "history_warmup": 100
+}

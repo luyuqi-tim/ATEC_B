@@ -1,0 +1,7 @@
+# Install into the existing Isaac Python with constraints.txt.
+mink==1.0.0
+mujoco==3.3.7
+qpsolvers[daqp]==4.8.2
+daqp==0.7.2
+imageio==2.37.0
+imageio-ffmpeg==0.6.0

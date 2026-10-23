@@ -1,0 +1,36 @@
+你是我的机器人项目环境工程师。请在已经连接的 Linux GPU 服务器上，为当前 Task B 工程配置环境并完成短时验收。所有仿真、模型推理只在服务器运行；我的本地电脑仅用于阅读与远程连接。
+
+本轮目标仅为配环境，完成后停止，不开始抓取算法开发、训练或完整任务评测。请用中文解释结果，专有名词附一句直白解释。
+
+【以实际工程为准】
+先读取适用的 AGENTS.md、README.md、pyproject.toml，以及 scripts/run_taskb.sh、scripts/play_taskb.py、scripts/check_package.py、taskb_student/env_cfg.py、taskb_student/lidar.py 和底层控制部署说明。如服务器尚未上传工程，请明确缺少工程路径，不要下载其他 Task B 仓库来代替它。
+
+本作业机器人为 B2＋Z1，资产为 assets/b2z1/b2z1_0815.urdf；任务 ID 为 Student-TaskB-B2Z1-v0；共 19 个可控关节。使用项目提供的 models/locomotion/policy.pt 和现有 low_level.py。这是行走权重，不是视觉抓取权重。
+
+README 验证环境是 Isaac Sim 5.0＋Isaac Lab v2.2.1＋Python 3.11＋PyTorch 2.7。当前候选平台镜像标称 Isaac Sim 5.1＋Isaac Lab 2.3.2 workstation＋ROS2 Jazzy。先确认实装版本、解释器和启动方式，再对当前镜像做兼容性验收。不要因为版本不同就直接重装或降级。
+
+【执行顺序】
+1. 只读检查系统、GPU 型号与显存、驱动、内存、可用磁盘，以及 Isaac Sim/Lab 的安装目录、版本和 Python 环境。保存依赖清单与关键环境变量，输出一张“实际版本 / README 版本”的对照表。nvidia-smi 能识别显卡不等于图形渲染已经通过，后续须验证相机。
+2. 找到镜像实际使用的 Python 3.11 解释器，正确激活现有环境；Isaac 的模块需要按该镜像官方启动顺序检查，不要因系统 Python 导入失败就断言未安装。不主动 source ROS2，不把 ROS2 的 Python 路径混入任务环境。
+3. 先检查项目依赖是否齐全，再做 editable 安装，优先使用 python -m pip install -e . --no-deps；有缺项时只补必要且兼容的包。保留镜像配套的 PyTorch/CUDA/Isaac 组合，不执行全局 pip upgrade，不卸载显卡驱动，不安装 Isaac Gym、VBC、LeggedManip_Lab 或额外训练框架。
+4. 在服务器运行 python scripts/check_package.py，确认资产、权重、部署契约与控制输出检查通过。该脚本包含模型推理，不得在我的本地电脑运行。然后再启动仿真。
+5. 使用 scripts/run_taskb.sh 验证默认站立，单环境、零速度、收臂、CPU PhysX 物理计算；GPU 用于图像渲染。不要传 --device cuda:0。本项目明确要求 --device cpu 来保证 PhysX 雷达的位姿读取。
+6. 站立通过后，再开前视与腕部 RGB-D，保存项目自带的传感器快照和诊断日志。无图形桌面使用 --headless；workstation 镜像不代表 SSH 能显示窗口。用 TASKB_PYTHON 指定经确认的完整解释器路径，避免误用系统 Python。不要把下面示例中的解释器占位符直接执行。
+
+在工程根目录，使用正确环境依次执行：
+
+python scripts/check_package.py
+bash scripts/run_taskb.sh --headless --steps 500 --max-walltime-s 120 --debug
+bash scripts/run_taskb.sh --headless --enable_cameras --steps 500 --max-walltime-s 120 --sensor-output runs/envcheck/sensors --diagnostics runs/envcheck/standing.jsonl --debug
+
+若 runs/envcheck 已有结果，换一个带时间戳的目录，保留旧结果。--max-walltime-s 从环境 reset 完成后计时，不能限制启动卡死；请另设有限的进程启动超时并保留日志。首次着色器编译耗时单独记录，超时不能直接当作版本不兼容。出现错误先分析首个实际异常，有限次修复，避免反复重启消耗租用时间。
+
+【验收与边界】
+- 确认 B2＋Z1 资产加载、19 关节动作合法，实际步数与停止原因清楚；检查是否提前跌倒终止，不以进程退出码 0 代替站立成功。
+- 确认 isaacsim.sensors.physx 在 AppLauncher 启动时启用，检查项目使用的 RangeSensorSchema 导入与雷达数据；不删掉雷达来绕过兼容性问题。ranges 应为 (1,360,16)，ready 为真，hit_mask 有合理命中，按有效掩码检查距离。
+- 确认前视与腕部图像均生成，RGB 非空且可辨认场景，深度有效区域有合理的米制数值。不能要求整幅深度图全部有限，因为无效像素可能存在。查看生成图片，而不只检查文件存在。
+- 记录本轮只验证静止时的数据；尚未验证行走中的雷达跟随和抓取能力。默认策略得 0 分是预期现象。
+- 本轮不切换 B1、不更换行走权重、不加篮子、不改机器人、计分、传感器含义和学生策略。不要进行强化学习训练、VBC 迁移或自动抓取。
+- 若当前镜像确有不兼容，保留错误证据并给最小修复方案。不要为了运行直接改任务源码，也不要覆盖镜像基础环境。若需要复现 README 的精确版本，提供另建隔离环境或换匹配镜像的方案，并说明缺少的条件。
+
+最终在 runs/envcheck/ 下保存环境报告（若目录已占用则用本轮对应目录），包括：实际硬件与版本、所用解释器、全部安装/启动命令、变更清单、日志与传感器快照路径，以及“通过 / 失败 / 未验证”的逐项结论。只说明本次证据支持的结果，不把环境通过说成抓取成功。完成环境验收后停止。
