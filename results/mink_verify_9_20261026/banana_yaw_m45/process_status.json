@@ -1,0 +1,29 @@
+{
+  "command": [
+    "/isaac-sim/python.sh",
+    "-u",
+    "/root/Desktop/TaskB/experiments/mink_banana/bench.py",
+    "--mode",
+    "grasp",
+    "--headless",
+    "--device",
+    "cpu",
+    "--enable_cameras",
+    "--record-video",
+    "--trials",
+    "1",
+    "--config",
+    "/root/Desktop/TaskB/experiments/mink_banana/configs/banana_yaw_m45.json",
+    "--output",
+    "/root/Desktop/TaskB/runs/mink_verify_9/20261026_01/banana_yaw_m45"
+  ],
+  "elapsed_s": 170.12419361667708,
+  "overall_timeout_s": 495.0,
+  "ready": true,
+  "completed_result_marker": true,
+  "native_exit_code": -15,
+  "forced_native_cleanup": true,
+  "cleanup_reason": "native_teardown_exceeded_5s_after_results_flushed",
+  "diagnostic_pass": true,
+  "exit_code": 0
+}

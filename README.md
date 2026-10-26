@@ -2,27 +2,29 @@
 
 B2原地下蹲，Z1接近、夹持，再起身配合抬臂。Mink协调机身、四条腿和机械臂；Isaac运行物理，MuJoCo只做运动学。
 
-## 成功抓取 Demo
+## 成功抓取 Demo（3 × 3）
 
-芥末瓶、糖盒、香蕉各选一个 **0°成功试验**。首页动图展示完整过程，按 **2倍速**播放；点击动图或下方链接查看原速完整 MP4。香蕉使用修复后的成功录像。
+2026-10-26 重新执行芥末瓶、糖盒、香蕉各三个角度（−45°、0°、+45°），**九次全部成功，9/9**。每个组合只执行一次，没有自动重试。以下九段均来自这次新测试。
 
-| 芥末瓶 | 糖盒 | 香蕉（修复后） |
-| :---: | :---: | :---: |
-| [![芥末瓶成功抓取全过程，点击查看完整视频](docs/demos/mustard_yaw_p00.gif)](results/mink_multiclass_9/mustard_yaw_p00.mp4) | [![糖盒成功抓取全过程，点击查看完整视频](docs/demos/sugar_yaw_p00.gif)](results/mink_multiclass_9/sugar_yaw_p00.mp4) | [![修复后香蕉成功抓取全过程，点击查看完整视频](docs/demos/banana_yaw_p00.gif)](results/mink_banana_repair/verified/banana_yaw_p00/trial_01/continuous.mp4) |
-| [完整视频](results/mink_multiclass_9/mustard_yaw_p00.mp4) | [完整视频](results/mink_multiclass_9/sugar_yaw_p00.mp4) | [完整视频](results/mink_banana_repair/verified/banana_yaw_p00/trial_01/continuous.mp4) |
-| 抬升 **14.82 cm** · 连续有效夹持 **5.90 s** | 抬升 **14.63 cm** · 连续有效夹持 **5.84 s** | 抬升 **14.73 cm** · 连续有效夹持 **5.86 s** |
+首页展示完整过程的 **2 倍速动态预览**；点击动图或“完整视频”查看原速 MP4。
 
-以上是三个单次试验的实测指标。芥末瓶、糖盒来自原九次测试；香蕉来自后续修复验证，不能将两批记录合称为一次新的九次测试。[录像来源与校验值](docs/demos/manifest.json)。
+| 物体 | −45° | 0° | +45° |
+| :---: | :---: | :---: | :---: |
+| 芥末瓶 | [![芥末瓶 -45° 成功抓取](docs/demos/nine_20261026/mustard_yaw_m45.gif)](results/mink_verify_9_20261026/mustard_yaw_m45/trial_01/continuous.mp4)<br>[完整视频](results/mink_verify_9_20261026/mustard_yaw_m45/trial_01/continuous.mp4)<br>抬升 14.78 cm · 夹持 5.90 s | [![芥末瓶 0° 成功抓取](docs/demos/nine_20261026/mustard_yaw_p00.gif)](results/mink_verify_9_20261026/mustard_yaw_p00/trial_01/continuous.mp4)<br>[完整视频](results/mink_verify_9_20261026/mustard_yaw_p00/trial_01/continuous.mp4)<br>抬升 14.82 cm · 夹持 5.90 s | [![芥末瓶 45° 成功抓取](docs/demos/nine_20261026/mustard_yaw_p45.gif)](results/mink_verify_9_20261026/mustard_yaw_p45/trial_01/continuous.mp4)<br>[完整视频](results/mink_verify_9_20261026/mustard_yaw_p45/trial_01/continuous.mp4)<br>抬升 14.79 cm · 夹持 5.90 s |
+| 糖盒 | [![糖盒 -45° 成功抓取](docs/demos/nine_20261026/sugar_yaw_m45.gif)](results/mink_verify_9_20261026/sugar_yaw_m45/trial_01/continuous.mp4)<br>[完整视频](results/mink_verify_9_20261026/sugar_yaw_m45/trial_01/continuous.mp4)<br>抬升 14.62 cm · 夹持 5.82 s | [![糖盒 0° 成功抓取](docs/demos/nine_20261026/sugar_yaw_p00.gif)](results/mink_verify_9_20261026/sugar_yaw_p00/trial_01/continuous.mp4)<br>[完整视频](results/mink_verify_9_20261026/sugar_yaw_p00/trial_01/continuous.mp4)<br>抬升 14.63 cm · 夹持 5.84 s | [![糖盒 45° 成功抓取](docs/demos/nine_20261026/sugar_yaw_p45.gif)](results/mink_verify_9_20261026/sugar_yaw_p45/trial_01/continuous.mp4)<br>[完整视频](results/mink_verify_9_20261026/sugar_yaw_p45/trial_01/continuous.mp4)<br>抬升 14.64 cm · 夹持 5.84 s |
+| 香蕉（修复后） | [![香蕉（修复后） -45° 成功抓取](docs/demos/nine_20261026/banana_yaw_m45.gif)](results/mink_verify_9_20261026/banana_yaw_m45/trial_01/continuous.mp4)<br>[完整视频](results/mink_verify_9_20261026/banana_yaw_m45/trial_01/continuous.mp4)<br>抬升 14.66 cm · 夹持 5.84 s | [![香蕉（修复后） 0° 成功抓取](docs/demos/nine_20261026/banana_yaw_p00.gif)](results/mink_verify_9_20261026/banana_yaw_p00/trial_01/continuous.mp4)<br>[完整视频](results/mink_verify_9_20261026/banana_yaw_p00/trial_01/continuous.mp4)<br>抬升 14.73 cm · 夹持 5.86 s | [![香蕉（修复后） 45° 成功抓取](docs/demos/nine_20261026/banana_yaw_p45.gif)](results/mink_verify_9_20261026/banana_yaw_p45/trial_01/continuous.mp4)<br>[完整视频](results/mink_verify_9_20261026/banana_yaw_p45/trial_01/continuous.mp4)<br>抬升 14.82 cm · 夹持 5.90 s |
+
+[本轮九次完整报告](results/mink_verify_9_20261026/report.md) · [逐项数据](results/mink_verify_9_20261026/trials.csv) · [录像来源与校验值](docs/demos/nine_20261026/manifest.json)
 
 ## 实测结果
 
-- 芥末瓶、糖盒：此前各三个朝向均成功。
-- 平放香蕉修复后：-45°、0°、+45°各一次，**3/3成功**，抬升约14.6–14.8cm，连续有效夹持约5.8–5.9s。
-- 物体初始距离固定0.55m。芥末瓶、糖盒下蹲机身高度约42cm；香蕉约30cm、前俯5.7°，四脚支撑。走近目标由后续导航负责。
+- **本轮独立整批复验 9/9**：三物体 × 三朝向，每个组合各一次；实际抬升约 14.62–14.82 cm，连续有效夹持约 5.82–5.90 s，完整 HOLD 与采样路径检查均通过。
+- 物体初始距离固定 0.55 m。芥末瓶、糖盒下蹲机身高度约 42 cm；香蕉约 30 cm、前俯 5.7°，采用四脚支撑。
+- 当前使用已知目标位姿和预设夹持点。摄像头用于记录；视觉定位、导航调整距离和装入篮子尚未完成闭环验证。
 
-[香蕉录像、数据和报告](results/mink_banana_repair/report.md)。原九次仍为6/9，保留在 [原九次报告](results/mink_multiclass_9/nine_report.md)。修复失败记录也全部保留，0°成功后未重跑。
+成功要求实际抬升 ≥10 cm、物体最低点离地 ≥2 cm、双指均有真实物体接触，连续有效保持 ≥3 s，并满足机身姿态、漂移及异常触地约束。每个组合只有一个样本，9/9 是本批结果，不是重复成功率估计。
 
-成功必须实际抬升≥10cm、最低点离地≥2cm、双指真实夹持并连续保持≥3s。IK可达和程序结束不代替抓取成功。
+历史记录继续保留：[原九次测试 6/9](results/mink_multiclass_9/nine_report.md)、[后续香蕉修复三朝向 3/3](results/mink_banana_repair/report.md)。本轮使用已保存的成功配置和冻结控制源码，未调参或重跑取最好结果。
 
 ## 怎么用
 

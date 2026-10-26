@@ -1,0 +1,23 @@
+{
+  "object": "mustard",
+  "yaw_deg": 45,
+  "case": "mustard_yaw_p45",
+  "success": true,
+  "state": "DONE",
+  "reason": "",
+  "runner_exit_code": 0,
+  "max_rise_m": 0.14794006943702698,
+  "max_valid_hold_s": 5.899999999999962,
+  "independently_valid_hold_s": 5.880000000000003,
+  "valid_HOLD_s": 3.979999999999997,
+  "hold_stage_duration_s": 4.000000000000625,
+  "min_HOLD_fixed_jaw_N": 26.30556551755635,
+  "min_HOLD_moving_jaw_N": 29.060286786548378,
+  "min_HOLD_bottom_m": 0.14599785993436593,
+  "max_active_tilt_deg": 1.0777450410612088,
+  "max_active_drift_m": 0.008141672238707542,
+  "native_contact_errors": 0,
+  "path_clear": true,
+  "minimum_arm_floor_m": 0.13770705680406398,
+  "video": "mustard_yaw_p45/trial_01/continuous.mp4"
+}

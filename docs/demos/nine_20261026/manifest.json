@@ -1,0 +1,132 @@
+{
+  "run": "20261026_01",
+  "source_commit": "3bc5822401bd82e00f49b0c6dbb518f9d46d64ba",
+  "requested_trials": 9,
+  "verified_successes": 9,
+  "automatic_retries": 0,
+  "preview": {
+    "speed": 2,
+    "width": 280,
+    "fps": 5,
+    "full_timeline": true
+  },
+  "demos": [
+    {
+      "case": "mustard_yaw_m45",
+      "object": "mustard",
+      "yaw_deg": -45,
+      "verified_success": true,
+      "video": "results/mink_verify_9_20261026/mustard_yaw_m45/trial_01/continuous.mp4",
+      "video_sha256": "105b2eaf26049341a07652ce31ca97ba3683025d1e825625e9b0a07a2cfc4beb",
+      "preview": "docs/demos/nine_20261026/mustard_yaw_m45.gif",
+      "preview_sha256": "d8d2186c9123839ee84f471f32695aad57998f34d97762ff1ba7bd8f72b6fbb6",
+      "preview_bytes": 1847704,
+      "max_rise_m": 0.14784550666809082,
+      "max_valid_hold_s": 5.899999999999962
+    },
+    {
+      "case": "mustard_yaw_p00",
+      "object": "mustard",
+      "yaw_deg": 0,
+      "verified_success": true,
+      "video": "results/mink_verify_9_20261026/mustard_yaw_p00/trial_01/continuous.mp4",
+      "video_sha256": "16c18edbec4b0bace3b064a7f377cfbcb2468a444353505f8a396ee1edd6a82d",
+      "preview": "docs/demos/nine_20261026/mustard_yaw_p00.gif",
+      "preview_sha256": "361c7c1cbe9208ded18caa699831eb292ba1efb396b4adb293b62544ed1544ff",
+      "preview_bytes": 1816350,
+      "max_rise_m": 0.1481846123933792,
+      "max_valid_hold_s": 5.899999999999962
+    },
+    {
+      "case": "mustard_yaw_p45",
+      "object": "mustard",
+      "yaw_deg": 45,
+      "verified_success": true,
+      "video": "results/mink_verify_9_20261026/mustard_yaw_p45/trial_01/continuous.mp4",
+      "video_sha256": "ffe9f7bdd033a789dd25330f761b42af72e730ec3399b4c3f8b827ab0dc835a9",
+      "preview": "docs/demos/nine_20261026/mustard_yaw_p45.gif",
+      "preview_sha256": "c6b345e82759d48f8dbcc3734500ccf6616cb5662ea3f9f1c84ebfe596109140",
+      "preview_bytes": 1859094,
+      "max_rise_m": 0.14794006943702698,
+      "max_valid_hold_s": 5.899999999999962
+    },
+    {
+      "case": "sugar_yaw_m45",
+      "object": "sugar",
+      "yaw_deg": -45,
+      "verified_success": true,
+      "video": "results/mink_verify_9_20261026/sugar_yaw_m45/trial_01/continuous.mp4",
+      "video_sha256": "f696127ddeaec1f5cd5d5141cfe8bc02c2ce804faeae008810b9660df32cf36b",
+      "preview": "docs/demos/nine_20261026/sugar_yaw_m45.gif",
+      "preview_sha256": "d5696a97f698844e568a9178797e9572e3545fe8f6b700b1b57a72b09d14f855",
+      "preview_bytes": 1873074,
+      "max_rise_m": 0.1462450996041298,
+      "max_valid_hold_s": 5.819999999999964
+    },
+    {
+      "case": "sugar_yaw_p00",
+      "object": "sugar",
+      "yaw_deg": 0,
+      "verified_success": true,
+      "video": "results/mink_verify_9_20261026/sugar_yaw_p00/trial_01/continuous.mp4",
+      "video_sha256": "129bd3f39120b5ea1fb1577ed3e476ad576dedcdeff38db7dd55a674a0ee07e8",
+      "preview": "docs/demos/nine_20261026/sugar_yaw_p00.gif",
+      "preview_sha256": "451d3181308addd9f9b3a7f1a2688e7679cf3579d38079aebe803fc7be66845b",
+      "preview_bytes": 1900496,
+      "max_rise_m": 0.14629213511943817,
+      "max_valid_hold_s": 5.839999999999963
+    },
+    {
+      "case": "sugar_yaw_p45",
+      "object": "sugar",
+      "yaw_deg": 45,
+      "verified_success": true,
+      "video": "results/mink_verify_9_20261026/sugar_yaw_p45/trial_01/continuous.mp4",
+      "video_sha256": "34ae29260fd571046fa28f9b8bae4709b285dac3bfc3436413a203d8c64a4593",
+      "preview": "docs/demos/nine_20261026/sugar_yaw_p45.gif",
+      "preview_sha256": "bedeabf8dccecfe4fc50c0eadf48bd89d72ba086a8269d44071faf9673c565c4",
+      "preview_bytes": 1840604,
+      "max_rise_m": 0.1464449241757393,
+      "max_valid_hold_s": 5.839999999999963
+    },
+    {
+      "case": "banana_yaw_m45",
+      "object": "banana",
+      "yaw_deg": -45,
+      "verified_success": true,
+      "video": "results/mink_verify_9_20261026/banana_yaw_m45/trial_01/continuous.mp4",
+      "video_sha256": "ad64e95da810f784de908338bd4a65f067828c039e1abb8960bae9912c488bfa",
+      "preview": "docs/demos/nine_20261026/banana_yaw_m45.gif",
+      "preview_sha256": "8a727d0cfe35af0e4539774ff910457ead289c8880084618a2af516418319569",
+      "preview_bytes": 1809568,
+      "max_rise_m": 0.14660889189690351,
+      "max_valid_hold_s": 5.839999999999963
+    },
+    {
+      "case": "banana_yaw_p00",
+      "object": "banana",
+      "yaw_deg": 0,
+      "verified_success": true,
+      "video": "results/mink_verify_9_20261026/banana_yaw_p00/trial_01/continuous.mp4",
+      "video_sha256": "a7048010ff350002d6aa5c043f10185eeb8cc7eb1f00e5dbade206de7755b2e4",
+      "preview": "docs/demos/nine_20261026/banana_yaw_p00.gif",
+      "preview_sha256": "bd4cafc33e3a65105790a3887944663847bcd5e253435f380c2cc57a0057f1d0",
+      "preview_bytes": 1717834,
+      "max_rise_m": 0.14732671529054642,
+      "max_valid_hold_s": 5.859999999999963
+    },
+    {
+      "case": "banana_yaw_p45",
+      "object": "banana",
+      "yaw_deg": 45,
+      "verified_success": true,
+      "video": "results/mink_verify_9_20261026/banana_yaw_p45/trial_01/continuous.mp4",
+      "video_sha256": "52322b3b906ee2aee663015990185e5e165177d33c20e0cd322699365cf47c1a",
+      "preview": "docs/demos/nine_20261026/banana_yaw_p45.gif",
+      "preview_sha256": "bc65acc7b5dc28a3138ca8b330a6b149521a5bf640193cd75605a067ad92737f",
+      "preview_bytes": 1720010,
+      "max_rise_m": 0.14819682762026787,
+      "max_valid_hold_s": 5.899999999999962
+    }
+  ]
+}

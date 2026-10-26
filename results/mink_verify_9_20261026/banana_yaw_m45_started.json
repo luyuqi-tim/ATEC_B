@@ -1,0 +1,21 @@
+{
+  "command": [
+    "bash",
+    "/root/Desktop/TaskB/scripts/run_mink_banana.sh",
+    "--mode",
+    "grasp",
+    "--headless",
+    "--device",
+    "cpu",
+    "--enable_cameras",
+    "--record-video",
+    "--trials",
+    "1",
+    "--config",
+    "/root/Desktop/TaskB/experiments/mink_banana/configs/banana_yaw_m45.json",
+    "--output",
+    "/root/Desktop/TaskB/runs/mink_verify_9/20261026_01/banana_yaw_m45"
+  ],
+  "config_sha256": "1945dfcaa43021e6a587d2f0699e158bdb6565546d44c53f28256c5b5ead8f61",
+  "started_utc": "2026-10-26T05:27:57.049023+00:00"
+}

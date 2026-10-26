@@ -1,0 +1,21 @@
+{
+  "command": [
+    "bash",
+    "/root/Desktop/TaskB/scripts/run_mink_wholebody.sh",
+    "--mode",
+    "grasp",
+    "--headless",
+    "--device",
+    "cpu",
+    "--enable_cameras",
+    "--record-video",
+    "--trials",
+    "1",
+    "--config",
+    "/root/Desktop/TaskB/experiments/mink_multiclass/configs/sugar_yaw_p45.json",
+    "--output",
+    "/root/Desktop/TaskB/runs/mink_verify_9/20261026_01/sugar_yaw_p45"
+  ],
+  "config_sha256": "8c26a62d675dac15789ff72574d9f845c1a87dcee94d0cc118f578f93c395e4f",
+  "started_utc": "2026-10-26T05:24:52.494974+00:00"
+}

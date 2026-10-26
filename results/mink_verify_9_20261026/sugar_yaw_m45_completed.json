@@ -1,0 +1,23 @@
+{
+  "object": "sugar",
+  "yaw_deg": -45,
+  "case": "sugar_yaw_m45",
+  "success": true,
+  "state": "DONE",
+  "reason": "",
+  "runner_exit_code": 0,
+  "max_rise_m": 0.1462450996041298,
+  "max_valid_hold_s": 5.819999999999964,
+  "independently_valid_hold_s": 5.799999999999997,
+  "valid_HOLD_s": 3.979999999999997,
+  "hold_stage_duration_s": 4.000000000000625,
+  "min_HOLD_fixed_jaw_N": 34.54940235580865,
+  "min_HOLD_moving_jaw_N": 37.99785275289985,
+  "min_HOLD_bottom_m": 0.14416071550039938,
+  "max_active_tilt_deg": 1.07264914208905,
+  "max_active_drift_m": 0.007737397216260433,
+  "native_contact_errors": 0,
+  "path_clear": true,
+  "minimum_arm_floor_m": 0.11045335734014688,
+  "video": "sugar_yaw_m45/trial_01/continuous.mp4"
+}

@@ -1,0 +1,21 @@
+{
+  "command": [
+    "bash",
+    "/root/Desktop/TaskB/scripts/run_mink_wholebody.sh",
+    "--mode",
+    "grasp",
+    "--headless",
+    "--device",
+    "cpu",
+    "--enable_cameras",
+    "--record-video",
+    "--trials",
+    "1",
+    "--config",
+    "/root/Desktop/TaskB/experiments/mink_multiclass/configs/mustard_yaw_p00.json",
+    "--output",
+    "/root/Desktop/TaskB/runs/mink_verify_9/20261026_01/mustard_yaw_p00"
+  ],
+  "config_sha256": "c5871fc27e30a572a8bd20788472f5f4c3da26a88bcc9911861afd1e8c46f487",
+  "started_utc": "2026-10-26T05:12:36.235681+00:00"
+}

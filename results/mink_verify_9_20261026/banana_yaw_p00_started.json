@@ -1,0 +1,21 @@
+{
+  "command": [
+    "bash",
+    "/root/Desktop/TaskB/scripts/run_mink_banana.sh",
+    "--mode",
+    "grasp",
+    "--headless",
+    "--device",
+    "cpu",
+    "--enable_cameras",
+    "--record-video",
+    "--trials",
+    "1",
+    "--config",
+    "/root/Desktop/TaskB/experiments/mink_banana/configs/centered_offset_13.json",
+    "--output",
+    "/root/Desktop/TaskB/runs/mink_verify_9/20261026_01/banana_yaw_p00"
+  ],
+  "config_sha256": "09ac3c89b84cb961649d1826fa2e5a371cd9c931898326ed1b48710087710e05",
+  "started_utc": "2026-10-26T05:32:56.160482+00:00"
+}

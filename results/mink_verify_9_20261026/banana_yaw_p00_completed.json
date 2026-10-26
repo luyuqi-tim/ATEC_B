@@ -1,0 +1,23 @@
+{
+  "object": "banana",
+  "yaw_deg": 0,
+  "case": "banana_yaw_p00",
+  "success": true,
+  "state": "DONE",
+  "reason": "",
+  "runner_exit_code": 0,
+  "max_rise_m": 0.14732671529054642,
+  "max_valid_hold_s": 5.859999999999963,
+  "independently_valid_hold_s": 5.839999999999996,
+  "valid_HOLD_s": 3.980000000000004,
+  "hold_stage_duration_s": 4.000000000000625,
+  "min_HOLD_fixed_jaw_N": 24.18343059872753,
+  "min_HOLD_moving_jaw_N": 24.57937628408259,
+  "min_HOLD_bottom_m": 0.14432549344953788,
+  "max_active_tilt_deg": 5.845731020618847,
+  "max_active_drift_m": 0.01572519540786743,
+  "native_contact_errors": 0,
+  "path_clear": true,
+  "minimum_arm_floor_m": 0.005739567166938436,
+  "video": "banana_yaw_p00/trial_01/continuous.mp4"
+}

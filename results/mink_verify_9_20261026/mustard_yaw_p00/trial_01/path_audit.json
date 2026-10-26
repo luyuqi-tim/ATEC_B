@@ -1,0 +1,10 @@
+{
+  "run": "/root/Desktop/TaskB/runs/mink_verify_9/20261026_01/mustard_yaw_p00/trial_01",
+  "sampled_frames": 519,
+  "obb_pair_tests": 114699,
+  "minimum_arm_ground_clearance_m": 0.1377716119371818,
+  "conservative_overlap_count": 0,
+  "events": [],
+  "clear": true,
+  "method": "Local URDF collision AABBs transformed as OBBs, 15-axis SAT against body and all leg links, camera/trace checked separately. Fixed mount excluded."
+}
