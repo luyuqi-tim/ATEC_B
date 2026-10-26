@@ -1,0 +1,51 @@
+{
+  "source_commit": "3bc5822401bd82e00f49b0c6dbb518f9d46d64ba",
+  "preview": {
+    "format": "gif",
+    "speed": 2,
+    "fps": 6,
+    "width": 360,
+    "full_timeline": true
+  },
+  "demos": [
+    {
+      "object": "mustard",
+      "label": "芥末瓶",
+      "yaw_deg": 0,
+      "verified_success": true,
+      "max_rise_m": 0.1481846123933792,
+      "max_valid_hold_s": 5.899999999999962,
+      "source_video": "results/mink_multiclass_9/mustard_yaw_p00.mp4",
+      "source_sha256": "28c66f9c1c77a468749dbd2e01272708106e963d6f050f0bd3b806867630baf6",
+      "preview_file": "docs/demos/mustard_yaw_p00.gif",
+      "preview_sha256": "017f742ab87a5e53adb0070d7776c4eee92e91b958ec0dfb993ee1524b5b0a77",
+      "preview_bytes": 3299955
+    },
+    {
+      "object": "sugar",
+      "label": "糖盒",
+      "yaw_deg": 0,
+      "verified_success": true,
+      "max_rise_m": 0.14629213511943817,
+      "max_valid_hold_s": 5.839999999999963,
+      "source_video": "results/mink_multiclass_9/sugar_yaw_p00.mp4",
+      "source_sha256": "cfaa1cc57e1381ed8691f34eccae3bf8b54e244dd5c509ba5bee5c2240f8fc63",
+      "preview_file": "docs/demos/sugar_yaw_p00.gif",
+      "preview_sha256": "113742224ca2021be15a57fc1442750374adbc13e9e6a2b434f2e213b70d3ee1",
+      "preview_bytes": 3315799
+    },
+    {
+      "object": "banana",
+      "label": "香蕉（修复后）",
+      "yaw_deg": 0,
+      "verified_success": true,
+      "max_rise_m": 0.14732671529054642,
+      "max_valid_hold_s": 5.859999999999963,
+      "source_video": "results/mink_banana_repair/verified/banana_yaw_p00/trial_01/continuous.mp4",
+      "source_sha256": "cc5705ba6849a6bc3932db6ec686c9e101c34e9583c8122327a9015124e93f23",
+      "preview_file": "docs/demos/banana_yaw_p00.gif",
+      "preview_sha256": "51092fc3464d82fa2748b75f6160c752066add72b057b8ac62b110ea2c834c3c",
+      "preview_bytes": 3277961
+    }
+  ]
+}

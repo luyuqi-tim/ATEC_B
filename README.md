@@ -2,11 +2,23 @@
 
 B2原地下蹲，Z1接近、夹持，再起身配合抬臂。Mink协调机身、四条腿和机械臂；Isaac运行物理，MuJoCo只做运动学。
 
+## 成功抓取 Demo
+
+芥末瓶、糖盒、香蕉各选一个 **0°成功试验**。首页动图展示完整过程，按 **2倍速**播放；点击动图或下方链接查看原速完整 MP4。香蕉使用修复后的成功录像。
+
+| 芥末瓶 | 糖盒 | 香蕉（修复后） |
+| :---: | :---: | :---: |
+| [![芥末瓶成功抓取全过程，点击查看完整视频](docs/demos/mustard_yaw_p00.gif)](results/mink_multiclass_9/mustard_yaw_p00.mp4) | [![糖盒成功抓取全过程，点击查看完整视频](docs/demos/sugar_yaw_p00.gif)](results/mink_multiclass_9/sugar_yaw_p00.mp4) | [![修复后香蕉成功抓取全过程，点击查看完整视频](docs/demos/banana_yaw_p00.gif)](results/mink_banana_repair/verified/banana_yaw_p00/trial_01/continuous.mp4) |
+| [完整视频](results/mink_multiclass_9/mustard_yaw_p00.mp4) | [完整视频](results/mink_multiclass_9/sugar_yaw_p00.mp4) | [完整视频](results/mink_banana_repair/verified/banana_yaw_p00/trial_01/continuous.mp4) |
+| 抬升 **14.82 cm** · 连续有效夹持 **5.90 s** | 抬升 **14.63 cm** · 连续有效夹持 **5.84 s** | 抬升 **14.73 cm** · 连续有效夹持 **5.86 s** |
+
+以上是三个单次试验的实测指标。芥末瓶、糖盒来自原九次测试；香蕉来自后续修复验证，不能将两批记录合称为一次新的九次测试。[录像来源与校验值](docs/demos/manifest.json)。
+
 ## 实测结果
 
 - 芥末瓶、糖盒：此前各三个朝向均成功。
 - 平放香蕉修复后：-45°、0°、+45°各一次，**3/3成功**，抬升约14.6–14.8cm，连续有效夹持约5.8–5.9s。
-- 物体初始距离固定0.55m；机身约30cm、前俯5.7°，四脚支撑。走近目标由后续导航负责。
+- 物体初始距离固定0.55m。芥末瓶、糖盒下蹲机身高度约42cm；香蕉约30cm、前俯5.7°，四脚支撑。走近目标由后续导航负责。
 
 [香蕉录像、数据和报告](results/mink_banana_repair/report.md)。原九次仍为6/9，保留在 [原九次报告](results/mink_multiclass_9/nine_report.md)。修复失败记录也全部保留，0°成功后未重跑。
 
